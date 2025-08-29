@@ -1,0 +1,82 @@
+---
+interface Props {
+    current?: string;
+}
+
+const { current } = Astro.props;
+
+const links = [
+    { href: '/', label: "Home", id: "home" },
+];
+---
+
+<header>
+    <h1>Kierownik223's website</h1>
+</header>
+<nav>
+    <ul>
+        {
+            links.map((link) => (
+                <li>
+                    <a
+                        href={link.href}
+                        class={link.id === current ? "selected" : ""}
+                    >
+                        {link.label}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</nav>
+<style>
+    header {
+        padding: 5px 0;
+        margin: 10px auto;
+        width: 90vw;
+    }
+
+    @media (prefers-contrast: more) {
+        header {
+            color: #fff;
+        }
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    nav ul {
+        width: 90vw;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        color: #e8def8;
+        border: #4a4458 1px solid;
+        border-radius: 10px;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        transition: background-color ease-in-out 0.1s;
+        height: fit-content;
+    }
+
+    nav a.selected {
+        padding-bottom: 6px;
+        border-bottom: 4px solid #4f378a;
+    }
+
+    nav a:hover {
+        background-color: #282828;
+    }
+</style>
