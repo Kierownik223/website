@@ -1,0 +1,23 @@
+---
+interface Props {
+    title: string;
+    description: string;
+}
+
+const { title } = Astro.props;
+---
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="theme-color" content="#7e4895" />
+<meta property="og:site_name" content="Kierownik223's website" />
+<meta property="og:description" content="Kierownik223's website" />
+<meta property="og:type" content="website" />
+<meta name="keywords" content="kierownik kierownik223" />
+<meta property="og:locale" content="en" />
+<meta property="og:title" content={title} />
+<meta name="description" content="Kierownik223's website" />
+
+<title>{title} - Kierownik's site</title>
