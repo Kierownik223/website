@@ -1,0 +1,16 @@
+body {
+    background: #000;
+}
+
+.main {
+    width: 90vw;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: #282828 solid 1px;
+}
+
+h1, h2 {
+    color: #6750A4;
+}
