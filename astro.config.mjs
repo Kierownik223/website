@@ -1,5 +1,16 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+import sitemap from "@astrojs/sitemap";
+
+export default defineConfig({
+    build: {
+        assets: 'static'
+    },
+
+    site: 'https://kier.ovh',
+
+    integrations: [
+        sitemap({}),
+    ],
+});
