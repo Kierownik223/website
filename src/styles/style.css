@@ -1,6 +1,7 @@
 body {
     font-family: 'Rubik', 'Segoe UI', sans-serif;
     background: #000;
+    color: #e9ddff;
 }
 
 .main {
@@ -14,4 +15,9 @@ body {
 
 h1, h2 {
     color: #6750A4;
+}
+
+a {
+    color: #cfbcff;
+    font-weight: bold;
 }
