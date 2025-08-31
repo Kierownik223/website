@@ -7,9 +7,9 @@ const { current } = Astro.props;
 
 const links = [
     { href: '/', label: "Home", id: "home" },
-    { href: '/about', label: "About", id: "about" },
-    { href: '/contact', label: "Contact", id: "contact" },
-    { href: '/equipment', label: "Equipment", id: "equipment" },
+    { href: '/about/', label: "About", id: "about" },
+    { href: '/contact/', label: "Contact", id: "contact" },
+    { href: '/equipment/', label: "Equipment", id: "equipment" },
 ];
 ---
 
@@ -47,6 +47,7 @@ const links = [
 
     header h1 {
         font-size: 40px;
+        margin: 0;
     }
 
     nav ul {
@@ -56,8 +57,6 @@ const links = [
         padding: 0;
         overflow: hidden;
         color: #e8def8;
-        border: #4a4458 1px solid;
-        border-radius: 10px;
     }
 
     nav li {
