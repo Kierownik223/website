@@ -3,16 +3,16 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const { title, current } = Astro.props;
+const { title, current, frontmatter } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={title} />
+		<BaseHead title={title ? title : frontmatter.title } />
 	</head>
 	<body>
-		<Header current={current} />
+		<Header current={current ? current : frontmatter.current } />
 		<div class="main">
 			<slot />
 		</div>
