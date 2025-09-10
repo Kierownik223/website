@@ -1,0 +1,46 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "../../../layouts/Base.astro";
+
+const { category, device } = Astro.params;
+
+const allPostFiles = import.meta.glob("/src/content/equipment/*/*.md");
+
+let post;
+
+for (const path in allPostFiles) {
+    if (path.includes(`/src/content/equipment/${category}/${device}.md`)) {
+        const mod = await allPostFiles[path]();
+        post = {
+            file: path,
+            frontmatter: mod.frontmatter,
+            Content: mod.default,
+        };
+        break;
+    }
+}
+
+if (!post) {
+    throw new Error(`Device not found: /${category}/${device}`);
+}
+
+const { title, category: cat, description } = post.frontmatter;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+    const allPostFiles = import.meta.glob("/src/content/equipment/*/*.*");
+
+    return Object.keys(allPostFiles).map((path) => {
+        const [category, file] = path
+            .split("/src/content/equipment/")[1]
+            .split("/");
+        const device = file.replace(/\.(md|astro)$/, "");
+        return {
+            params: { category, device },
+        };
+    });
+};
+---
+
+<Base title={title} current="equipment">
+	<post.Content/>
+</Base>
