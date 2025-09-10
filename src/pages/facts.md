@@ -26,4 +26,4 @@ current: "facts"
 - I would never buy anything that Lenovo touched
 - The first programs I published were just followed, rebranded YouTube tutorials
 - I started programming when I was 9 years old
-- Most of [the stuff I use](/equipment) is chosen because I'm used to it or I like it
+- Most of [the stuff I use](/equipment/) is chosen because I'm used to it or I like it

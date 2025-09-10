@@ -11,7 +11,7 @@ export default defineConfig({
 
     site: 'https://kier.ovh',
 
-    trailingSlash: 'never', 
+    trailingSlash: 'ignore', 
 
     integrations: [
         sitemap({}),
