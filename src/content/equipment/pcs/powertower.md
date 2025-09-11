@@ -31,8 +31,8 @@ My main PC, built in early 2021, used to have 96GB of RAM, but one of the sticks
 ### Accessories: 
 
 - Monitors:
-    - Primary: Acer XV270P 1080p 27" 165Hz
-    - Secondary: Samsung SyncMaster BX2240 1080 22" 60Hz
+    - Primary: Acer XV270P 1920x1080 27" 165Hz
+    - Secondary: Samsung SyncMaster BX2240 1920x1080 22" 60Hz
 - Keyboard: Microsoft Natural Keyboard PS/2 (1996)
 - Mouse: HP Optical USB Mouse
 - Deskmat: excovip Linux desk mat
