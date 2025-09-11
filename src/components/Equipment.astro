@@ -30,7 +30,7 @@ for (const item of allItems) {
 <h2>My equipment</h2>
 {
     Object.entries(groupedItems).map(([category, items]) => (
-        <h2 class="marker">{category}</h2>
+        <h2 class="marker">{category} <small>(Total: {items.length})</small></h2>
         <div class="grid">
             {items.map((p) => (
                 <div class="device">
