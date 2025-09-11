@@ -4,18 +4,19 @@ import { getCollection } from "astro:content";
 let allItems = await getCollection("equipment");
 
 allItems.sort((a, b) => {
+    const categoryCompare = a.data.category.localeCompare(b.data.category);
+    if (categoryCompare !== 0) {
+        return categoryCompare;
+    }
+
     const priorityA = a.data.priority ?? 0;
     const priorityB = b.data.priority ?? 0;
-
     if (priorityA !== priorityB) {
         return priorityB - priorityA;
     }
-
-    if (a.data.category !== b.data.category) {
-        return a.data.category.localeCompare(b.data.category);
-    }
     return a.data.title.localeCompare(b.data.title);
 });
+
 
 const groupedItems: Record<string, typeof allItems> = {};
 for (const item of allItems) {
