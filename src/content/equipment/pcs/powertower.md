@@ -1,4 +1,5 @@
 ---
+priority: 1
 title: "PowerTower"
 category: "PC's"
 description: "Main PC"
