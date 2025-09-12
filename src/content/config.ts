@@ -5,7 +5,8 @@ const equipmentCollection = defineCollection({
         priority: z.number().optional(),
         title: z.string(),
         category: z.string(),
-        description: z.string()
+        description: z.string(),
+        count: z.number().default(1),
     }),
 });
 
