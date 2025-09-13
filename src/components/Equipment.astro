@@ -40,7 +40,7 @@ if (!base.endsWith('/')) {
         <div class="grid">
             {items.map((p) => (
                 <div class="device">
-                    <h3><a href={`${base}equipment/${p.data.category.replaceAll(" ", "-").replaceAll("'", "")}/${p.data.title.replaceAll(" ", "-").replaceAll("+", "plus")}`.toLowerCase()}>{p.data.title}</a> {p.data.count !== 1 && <small>({p.data.count}x)</small>}</h3>
+                    <h3>{p.data.count !== 1 && <small>({p.data.count}x)</small>} <a href={`${base}equipment/${p.data.category.replaceAll(" ", "-").replaceAll("'", "")}/${p.data.title.replaceAll(" ", "-").replaceAll("+", "plus")}`.toLowerCase()}>{p.data.title}</a></h3>
                     <p>{p.data.description}</p>
                 </div>
             ))}
