@@ -12,11 +12,11 @@ My secondary PC, used mainly as a period-correct Windows 7 rig.
 
 - Processor: AMD Phenom II X4 B95 @ 3.00GHz
 - Motherboard: HP Compaq 6005 Pro SFF
-- Memory (Total: 8GB):
-    - Slot 0: Elpida 1GB DDR3 1333MT/s
-    - Slot 1: Elpida 1GB DDR3 1333MT/s
-    - Slot 2: Samsung 2GB DDR3 1333MT/s
-    - Slot 3: Kingston 4GB DDR3 1333MT/s
+- Memory (Total: 16GB):
+    - Slot 0: Micron 8GB DDR3 1333MT/s
+    - Slot 1: Micron 8GB DDR3 1333MT/s
+    - Slot 2: Empty
+    - Slot 3: Empty
 - Mass storage:
     - Boot drive: Adata SU650 240GB SATA SSD
     - Secondary drive: WDC WD5000BPKX 500GB SATA HDD
