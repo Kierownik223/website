@@ -7,17 +7,18 @@ description: "Main PC"
 
 ## PowerTower
 
-My main PC, built in early 2021, used to have 96GB of RAM, but one of the sticks died.
+My main PC, built in early 2021, used to have 96GB of RAM, but one of the sticks died.  
+Now replaced with a brand new set of memory.
 
 ### Specifications:
 
 - Processor: Intel Xeon E5-2678 v3 @ 3.20 GHz
 - Motherboard: HUANANZHI X99-TF
 - Memory (Total: 64GB):
-    - Slot 0: Empty
-    - Slot 1: Empty
-    - Slot 2: Samsung 32GB DDR3 ECC 1866 MT/s
-    - Slot 3: SK Hynix 32GB DDR3 ECC 1866 MT/s
+    - Slot 0: Samsung 16GB DDR3 ECC 1366 MT/s
+    - Slot 1: Samsung 16GB DDR3 ECC 1366 MT/s
+    - Slot 2: Samsung 16GB DDR3 ECC 1366 MT/s
+    - Slot 3: Samsung 16GB DDR3 ECC 1366 MT/s
 - Mass storage:
     - Boot drive: Lexar NM620 512GB NVMe SSD PCIe 3.0
     - Secondary drive: Adata Swordfish 1TB NVMe SSD PCIe 3.0 
