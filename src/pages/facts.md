@@ -8,13 +8,13 @@ current: "facts"
 
 - My real name is Marcel
 - I own around 30 phones and 3 PCs
-	- Main phone: Nokia Lumia 1020 64GB
+	- Main phone: Nokia Lumia 930 Gold
 	- Main Android phone: Microsoft Surface Duo 256GB
 	- Secondary phone: Xiaomi Redmi Note 8 4/64GB
 - I (almost) won the Provincial Science Competition in 2025
 - I chose Kierownik223 because "Kierownik123" was already taken
 - I love [Crystal Castles](https://dl.marmak.net.pl/music/Crystal%20Castles/) to death
-- I'm a Linux user, yet my main phone is a Nokia Lumia 1020
+- I'm a Linux user, yet my main phone is a Windows Phone
 - I paid less for this domain than for [marmak.net.pl](https://marmak.net.pl)
 - I didn't originally make the [marmak.net.pl](https://marmak.net.pl) website
 - I used to own marmak.cf, jnwz.cf and blinkenlights.cf
