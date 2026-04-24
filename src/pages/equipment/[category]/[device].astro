@@ -24,21 +24,35 @@ if (!post) {
     throw new Error(`Device not found: /${category}/${device}`);
 }
 
-const { title, category: cat, description } = post.frontmatter;
+const { title, category: cat, description, meaningful } = post.frontmatter;
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const allPostFiles = import.meta.glob("/src/content/equipment/*/*.*");
 
-    return Object.keys(allPostFiles).map((path) => {
-        const [category, file] = path
-            .split("/src/content/equipment/")[1]
-            .split("/");
-        const device = file.replace(/\.(md|astro)$/, "");
-        return {
-            params: { category, device },
-        };
-    });
+    const entries = await Promise.all(
+        Object.entries(allPostFiles).map(async ([path, loader]) => {
+            const [category, file] = path
+                .split("/src/content/equipment/")[1]
+                .split("/");
+
+            const device = file.replace(/\.(md|astro)$/, "");
+
+            const mod: any = await loader();
+            const meaningful = mod.frontmatter?.meaningful;
+
+            if (category.toLowerCase() === "phones" && !meaningful) {
+                return null;
+            }
+
+            return {
+                params: { category, device },
+            };
+        })
+    );
+
+    return entries.filter(Boolean);
 };
+
 ---
 
 <Base title={title} current="equipment">
