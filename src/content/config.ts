@@ -3,6 +3,7 @@ import { defineCollection, z } from "astro:content";
 const equipmentCollection = defineCollection({
     schema: z.object({
         priority: z.number().optional(),
+        meaningful: z.boolean().optional(),
         title: z.string(),
         category: z.string(),
         description: z.string(),
