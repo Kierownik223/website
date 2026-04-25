@@ -20,9 +20,6 @@ const links = [
 ];
 ---
 
-<header>
-    <h1>Kierownik223's website</h1>
-</header>
 <nav>
     <ul>
         {
@@ -43,7 +40,6 @@ const links = [
     header {
         padding: 5px 0;
         margin: 10px auto;
-        width: 90vw;
     }
 
     @media (prefers-contrast: more) {
@@ -57,37 +53,22 @@ const links = [
         margin: 0;
     }
 
-    nav ul {
-        width: 90vw;
-        list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
-        color: #e8def8;
-    }
-
-    nav li {
-        float: left;
-    }
-
     nav a {
-        display: block;
         color: white;
-        text-decoration: none;
-        text-align: center;
-        padding: 10px;
-        transition: background-color ease-in-out 0.1s;
-        height: fit-content;
         font-weight: normal;
     }
 
     nav a.selected {
-        padding-bottom: 6px;
-        border-bottom: 4px solid #4f378a;
         font-weight: bold;
+        text-decoration: none;
     }
 
     nav a:hover {
-        background-color: #282828;
+        text-decoration: none;
+    }
+
+    nav ul {
+        margin-left: -20px;
+        margin-right: 10px;
     }
 </style>

@@ -12,10 +12,22 @@ const { title, current, frontmatter } = Astro.props;
 		<BaseHead title={title ? title : frontmatter.title } />
 	</head>
 	<body>
-		<Header current={current ? current : frontmatter.current } />
-		<div class="main">
-			<slot />
-		</div>
-		<Footer />
-	</body>
+		<header>
+			<h1>Kierownik223's website</h1>
+		</header>
+		<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top">
+					<Header current={current ? current : frontmatter.current } />
+				</td>
+
+				<td valign="top">
+					</aside>
+					<div class="main">
+						<slot />
+					</div>
+					<Footer />
+				</td>
+			</tr>
+		</table>
 </html>
