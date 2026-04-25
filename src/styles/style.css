@@ -21,3 +21,8 @@ a {
     color: #cfbcff;
     font-weight: bold;
 }
+
+p img {
+    width: 20%;
+    height: auto;
+}
