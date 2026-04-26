@@ -7,6 +7,11 @@ interface Props {
 }
 
 const { title } = Astro.props;
+let base = import.meta.env.BASE_URL;
+
+if (!base.endsWith('/')) {
+    base += '/';
+}
 ---
 
 <meta charset="UTF-8" />
@@ -22,8 +27,8 @@ const { title } = Astro.props;
 <meta property="og:title" content={title} />
 <meta name="description" content="Kierownik223's website" />
 
-<link rel="apple-touch-icon" href="favicon.png">
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href={`${base}favicon.png`}>
+<link rel="shortcut icon" href={`${base}favicon.png`} type="image/x-icon">
+<link rel="icon" href={`${base}favicon.png`}>
 
 <title>{title} - Kierownik's site</title>
