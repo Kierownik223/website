@@ -11,7 +11,7 @@ current: "contact"
     - For company inquiries (MARMAK): marcel [at] marmak.net.pl  
     - One Live: kierownik [at] fullmoon.dev
 - Discord: prezes_zarzadu  
-- \[matrix]: [@kierownik223@marmak.net.pl](https://matrix.to/#/@kierownik223:marmak.net.pl)  
+- \[matrix]: [@kierownik223:marmak.net.pl](https://matrix.to/#/@kierownik223:marmak.net.pl)  
 
 ### Other socials
 
