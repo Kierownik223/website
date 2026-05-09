@@ -9,11 +9,11 @@ meaningful: true
 ## Nokia N900
 
 Basically a poor (depends on how you view the world) man's computer. Sporting 256MB of RAM, 32GB of flash and a keyboard, it's definitely up there for dream mobile machines (for the late 00's, at least).  
-Mine were bought in October and November, 2023 for around 200 PLN a piece. One's in kinda but shape but the other is mint.
+Mine were bought in October and November, 2023 for around 200 PLN a piece. One's in kinda bad shape but the other is mint.
 
 ### Fun facts
 
-- I was only supposed to get one for Christmas, yet luck stuck and my dad has bought two really cheaply
+- I was only supposed to get one for Christmas, yet luck struck and my dad has bought two really cheaply
 - The phone's the only part that's meant to be used portrait, everything else is landscape
 - The touchscreen is really precise for what it is
 - Customisability is endless even on the stock OS
@@ -24,7 +24,7 @@ Mine were bought in October and November, 2023 for around 200 PLN a piece. One's
 
 As this phone is based on Linux from the ground up, getting another distro isn't really that hard.  
 All you need to do in the stock OS is install `sudser`, then use it to install U-Boot, you flash pmOS to an SD card and you're done!  
-This in and of itself makes this phone 10 times more usable than the stock OS, if you don't want to use the phone, that is. I was able to get the latest version of Firefox running on it no fuss, only it took like 2 minutes to load and struggled even with my site thanks to the limited RAM.  
+This in and of itself makes this phone 10 times more usable than the stock OS, if you don't want to use the phone function, that is. I was able to get the latest version of Firefox running on it no fuss, only it took like 2 minutes to load and struggled even with my site thanks to the limited RAM.  
 It's a fun journey nontheless.
 
 ### Photos

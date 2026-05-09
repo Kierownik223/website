@@ -7,7 +7,7 @@ meaningful: true
 
 ## Nokia Lumia 1020 64GB
 
-A special version of the famous Nokia Lumia 1020 mobile phone released exclusively in the UK, on Vodafone and O~2~.  
+A special version of the famous Nokia Lumia 1020 mobile phone released exclusively in the UK, on Vodafone and O<sub>2</sub>.  
 Bought in June, 2024 for 30 PLN on Allegro. One of, if not the rarest production Windows Phones in existence. In perfect condition.
 
 ## Fun facts

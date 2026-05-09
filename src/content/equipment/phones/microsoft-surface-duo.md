@@ -16,7 +16,7 @@ My main study device (I take notes on it and use it as an e-book reader). Bought
 - I wanted this phone ever since I was 10, finally caved in and bought it
 - Disabling the Google Play Store is the best thing one can do to improve stock performance
 - Works very good with the Adonit Ink stylus
-- One screen's noticeabley more burnt-in than the other
+- One screen's noticeably more burnt-in than the other
 
 ### Photos
 
