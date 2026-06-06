@@ -40,7 +40,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
             const mod: any = await loader();
             const meaningful = mod.frontmatter?.meaningful;
 
-            if (category.toLowerCase() === "phones" && !meaningful) {
+            if (!meaningful) {
                 return null;
             }
 
