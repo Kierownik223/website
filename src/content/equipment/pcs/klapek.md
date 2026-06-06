@@ -2,6 +2,7 @@
 title: "Klapek"
 category: "PC's"
 description: "Secondary PC"
+meaningful: true
 ---
 
 ## Klapek

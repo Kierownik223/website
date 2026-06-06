@@ -3,6 +3,7 @@ priority: 1
 title: "EliteBang"
 category: "Laptops"
 description: "Primary laptop"
+meaningful: true
 ---
 
 ## EliteBang

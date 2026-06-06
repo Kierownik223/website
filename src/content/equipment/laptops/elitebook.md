@@ -2,6 +2,7 @@
 title: "EliteBook"
 category: "Laptops"
 description: "Retired primary laptop"
+meaningful: true
 ---
 
 ## EliteBook

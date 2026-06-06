@@ -3,6 +3,7 @@ priority: 1
 title: "Proboszcz"
 category: "Laptops"
 description: "Primary Windows PC"
+meaningful: true
 ---
 
 ## Proboszcz
