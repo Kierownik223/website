@@ -10,7 +10,11 @@ let post;
 
 for (const path in allPostFiles) {
     if (path.includes(`/src/content/equipment/${category}/${device}.md`)) {
-        const mod = await allPostFiles[path]();
+        const mod = await allPostFiles[path]() as {
+            frontmatter: any;
+            default: any;
+        };
+
         post = {
             file: path,
             frontmatter: mod.frontmatter,
@@ -50,7 +54,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         })
     );
 
-    return entries.filter(Boolean);
+    return entries.filter(Boolean).filter((x): x is { params: { category: string; device: string } } => x !== null);
 };
 
 ---
