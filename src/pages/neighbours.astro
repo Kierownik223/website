@@ -1,0 +1,62 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="My net neighbours" current="neighbours">
+    <h2>My net neighbours</h2>
+    <p>Some of my amazing friends' websites.</p>
+    <h2 class="marker">IRL friends</h2>
+    <div class="grid">
+        <div class="device">
+            <h3><a href="https://spaniel.ovh">Spaniel</a></h3>
+            <p>
+                Brilliant programmer with a lot of side projects and great charisma.
+                He programs in Python and Go. I trust him with my laptop, 
+                <a href="/equipment/laptops/elitebook">EliteBook</a>. <br />
+                <small>Do note his site may go offline.</small>
+            </p>
+        </div>
+        <div class="device">
+            <h3><a href="https://emma.casino">Merseyrail508</a></h3>
+            <p>
+                Aspiring programmer and great English speaker. Owner of Emma.casino
+                and great helper on my MediaWiki.
+            </p>
+        </div>
+        <div class="device">
+            <h3><a href="https://maksydab.github.io">Maksydab</a></h3>
+            <p>
+                Great programmer with a set mission of making a world free of Adobe
+                products. Creator of <a href="https://anmator.art">Anm Anmator</a>.
+            </p>
+        </div>
+        <div class="device">
+            <h3><a href="https://karol.marmak.net.pl">Karol115</a></h3>
+            <p>
+                Scholared IT technician with some programming skills.
+            </p>
+        </div>
+    </div>
+</Base>
+
+<style>
+    .grid {
+        margin-top: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .grid {
+            grid-template-columns: 100%;
+        }
+    }
+
+    .marker {
+        border-left: 5px solid #7e4895;
+        padding: 5px;
+    }
+</style>
