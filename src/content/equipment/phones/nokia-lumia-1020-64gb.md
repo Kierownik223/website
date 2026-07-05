@@ -1,7 +1,8 @@
 ---
+priority: 2
 title: "Nokia Lumia 1020 64GB"
 category: "Phones"
-description: "Windows Phone 8.1 Update"
+description: "Main digital camera, Windows Phone 8.1 Update"
 meaningful: true
 ---
 
