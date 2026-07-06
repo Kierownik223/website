@@ -22,8 +22,7 @@ Now replaced with a brand new set of memory.
     - Slot 3: Samsung 16GB DDR3 ECC 1366 MT/s
 - Mass storage:
     - Boot drive: Lexar NM620 512GB NVMe SSD PCIe 3.0
-    - Secondary drive: Adata Swordfish 1TB NVMe SSD PCIe 3.0 
-    - Archive drive: Seagate ST1000LM024 1TB HDD
+    - Secondary drive: Adata Swordfish 1TB NVMe SSD PCIe 3.0
     - Downloads drive: WDC WD5000AZLX-60K2TA0 500GB HDD
 - Optical drive: N/A
 - Graphics card: MSI NVIDIA GeForce GTX 1650 SUPER AERO ITX 4GB
@@ -37,11 +36,10 @@ Now replaced with a brand new set of memory.
     - Primary: Acer XV270P 1920x1080 27" 165Hz
     - Secondary: Samsung SyncMaster BX2240 1920x1080 22" 60Hz
 - Keyboard: Microsoft Natural Keyboard PS/2 (1996)
-- Mouse: HP Optical USB Mouse
-- Deskmat: excovip Linux desk mat
+- Mouse: Microsoft Trackball Optical 1.0
 
 ### Uses:
 
 - Programming work
 - General web browsing
-- Android recovery compilation
+- Gaming
