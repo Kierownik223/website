@@ -33,6 +33,11 @@ My current laptop, bought as refurbished for a fair price.
 - Internet browsing
 - E-book reading
 
+### Mute LEDs
+
+On newer revisions of the motherboard, in my case 8AB8, the mute LEDs do not function by default on Linux.  
+I have since submitted [a patch](https://lore.kernel.org/linux-sound/4dab5622-9100-4730-8c99-b58da939549b@marmak.net.pl/), which fixes said issue.
+
 ### Backstory
 
 One day my bag fell off a table, and in that bag was my old laptop [EliteBook](elitebook). Some plastics broke, but I decided to glue it back together.  
