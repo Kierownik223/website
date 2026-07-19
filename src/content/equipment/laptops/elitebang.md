@@ -42,17 +42,28 @@ I have since submitted [a patch](https://lore.kernel.org/linux-sound/4dab5622-91
 
 My example of this machine has shipped from the factory with a **Fibocom L850-GL** LTE-Advanced PCI-e modem. The modem is perfectly functional, including the GPS/GLONASS receiver.  
 Fact of the matter is, I use arch btw, and so do I on this machine. So I kinda wanted the modem to function as it was a factory configuration.  
+
 Then I started digging, and came across [this amazing Github repo](https://github.com/xmm7360/xmm7360-pci), which says it is a PCI-e driver for this exact chipset. Bingo! Or so I thought.  
 I realised quickly I had to put in more effort than just copying commands. I had to ask an LLM (kill me please) to fix the driver on newer kernel versions, as I have absolutely zero experience with such low-level driver engineering. After wasting countless kilowatts of electricity, I got the driver to compile and successfully load to the kernel.  
+
 The driver worked and the modem successfully connected! Tho, just connecting wasn't going to cut it for me, I wanted to continue the adventorous streak from yesterday and get at least *something* more than a basic IP link.  
+
 That's when I started digging, and I found [a document](https://www.data.proidea.org.pl/plnog/12edycja/day2/track4/01_ipv6_implementation.pdf) describing Orange's (who is my mobile operator of choice) technicals behind IPv6 on their mobile network.  I then out of curiosity changed my APN from `internet` to `internetipv6`, expecting IPv4 to still work, however, I was flabbergasted when I saw a public IP address in the inet field of `ip a`.  
+
 Then I messaged one of my friends, [mily](https://mily.ovh), what's up with that, long story short, he told me about some tunelling I had to do. Well, in that document they state about the presence of IPv4v6 xLAT in their network.  
+
 Then it hit me, I needed to translate my v4 packets to v6 on *my* machine for it to work. I found [clatd](https://github.com/toreanderson/clatd), which fit my usecase perfectly. I then did a little bit of systemd tomfoolery and now I have an easy to setup and stable IPv4 and IPv6 LTE-based link on my mobile workstation. Lovely!  
+
 I became a bit fed up of going to the terminal every time I wanted to connect to mobile internet, and I didn't feel like leaving it on all the time was a great idea since I'm very much concerned about the battery life on my machine. I then started digging, and pretty quickly ruled ModemManager integration out, as I kind of liked the indie nature and raw exposure to the things happening to my packets, but I still wanted an easy toggle. Then it hit me, during my initial research I came across [this Github issue](https://github.com/xmm7360/xmm7360-pci/issues/246) on the [xmm7360-pci repo](https://github.com/xmm7360/xmm7360-pci). It claimed to fix all my issues! I use GNOME and find the control center handy, so this was perfect. I kanged the project and modified it, just *slightly*, to work with my existing setup, added Orange Poland's MNC and MCC to the csv file and voila, now I have a working LTE toggle in my control panel!  
+
 I still wasn't fully satisfied, being fascinated with all things radio I kinda wanted to get GPS up and running. The only known way to do that is on Windows, where I spent a total of **three hours** wasting my time on all the drivers which didn't install automatically for some reason, then to discover the Maps app I wanted so badly isn't even there and even after installation fails to find my location.  
+
 So there I am again, spending another three hours, this time installing Windows 11 Enterprise IoT LTSC or whatever it's called, along with all the useless security updates and drivers, just to then fight with the App Installer to get Maps to install and to find out it only fetched the location from my IP, which was off by a mere 100 kilometers.  
+
 I then went on a side tangent and got the LTE connection set up and running, it worked the same as on Linux btw, only difference being that it's native.  
+
 But then, randomly, in some sketchy app I got from the Microsoft Store it showed up with more precise coordinates than ever, I looked at the source, and it showed... **Satellite**. Success!!  
+
 While on Windows I managed this modem can also receive SMS, not sure about sending them as I don't have cash on my card at the moment, but receiving sure does work. Windows shows all of these messages as "operator messages", even tho I had my friends send me texts, so that's not really the operator, or is it?
 
 ### Backstory
