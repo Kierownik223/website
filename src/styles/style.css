@@ -29,3 +29,7 @@ p img {
     width: 20%;
     height: auto;
 }
+
+em img {
+    float: inline-end;
+}

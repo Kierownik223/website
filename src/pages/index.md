@@ -5,19 +5,14 @@ current: "home"
 
 ## Hi!
 
-I'm Kierownik223, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things. I live in Poland, and I speak English, Polish, and a bit of German and Russian.  
+I'm **Kierownik223**, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things. I live in Poland, and I speak Polish, English, Spanish, and a bit of German and Russian.  
 I'm fascinated with all things electronics, tho mainly enterprise/embedded stuff, programming and phones.
 
-I also go by just Kierownik, prezes_zarzadu or kier.ovh on social media.
+I also go by just Kierownik, prezes_zarzadu or kier.ovh on social media.  
+You can call me *Kiero* if you like.
 
-### Other interests: 
-
-- Linux server administration
-- Photography
-- Video editing
-- [Numismatics](https://en.wikipedia.org/wiki/Numismatics)
-- Science and maths
-- Travelling
+My birthday is on the **17th of June**, if anyone wants to send along some wishes :)
+*![A picture of Kierownik223](/assets/me.jpg)*
 
 ### Programming skills:
 
@@ -30,6 +25,25 @@ I also go by just Kierownik, prezes_zarzadu or kier.ovh on social media.
     - Windows Universal
     - Windows Phone Silverlight
     - Windows Mobile 5 (PocketPC)
+
+### Other significant interests: 
+
+From most to least I also enjoy spending my time on:
+
+- Computer networking
+    - IPv6
+    - Cellular networking
+    - Wireless protocols
+    - Cisco IOS
+- Linux server administration
+- Photography
+- Calisthenics
+- Electronic music
+- Marketing
+- [Numismatics](https://en.wikipedia.org/wiki/Numismatics)
+- Travelling
+- Video editing
+- Science and maths
 
 ### Facts about me:
 
@@ -45,10 +59,12 @@ I also go by just Kierownik, prezes_zarzadu or kier.ovh on social media.
 - I used to own marmak.cf, jnwz.cf and blinkenlights.cf
 - If it wasn't for [Olek47](https://github.com/Olek47), I would have quit Linux server administration a long time ago
 - I originally made the [Mirror](https://dl.marmak.net.pl) just to host PocketPC software
-- If it wasn't for me, [Live Store Silver](https://store.live.net.co) wouldn't exist
+- If it wasn't for me, [Live Store Silver](https://store.live.net.co/app/145) wouldn't exist
 - I hate Windows 11 with a passion
 - I hate modern consumer tech
 - I would never buy anything that Lenovo touched
 - The first programs I published were just followed, rebranded YouTube tutorials
 - I started programming when I was 9 years old
 - Most of [the stuff I use](equipment) is chosen because I'm used to it or I like it
+
+**Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with.
