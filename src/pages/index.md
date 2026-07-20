@@ -1,10 +1,30 @@
 ---
 layout: ../layouts/Base.astro
-title: "Home"
 current: "home"
 ---
 
 ## Hi!
 
-I'm Kierownik223, also known as prezes_zarzadu. Check out [About me](about) for more info, and [Equipment](equipment) for the stuff I use.  
-If you came here from a shortlink, check out [LinkShortener](https://short.marmak.net.pl), all 4-character URLs on this domain are user-generated and not related to Kierownik's online presence.
+I'm Kierownik223, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things. I live in Poland, and I speak English, Polish, and a bit of German and Russian.  
+I'm fascinated with all things electronics, tho mainly enterprise/embedded stuff, programming and phones.
+
+### Other interests: 
+
+- Linux server administration
+- Photography
+- Video editing
+- [Numismatics](https://en.wikipedia.org/wiki/Numismatics)
+- Science and maths
+- Travelling
+
+### Programming skills:
+
+- Android (Kotlin)
+- HTML, CSS, JS
+- Rust
+- TypeScript
+- PHP (bleh)
+- C#
+    - Windows Universal
+    - Windows Phone Silverlight
+    - Windows Mobile 5 (PocketPC)

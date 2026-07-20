@@ -5,7 +5,11 @@ interface Props {
     title: string;
 }
 
-const { title } = Astro.props;
+let { title } = Astro.props;
+if (!title) {
+    title = 'Kierownik\'s site';
+}
+
 let base = import.meta.env.BASE_URL;
 
 if (!base.endsWith('/')) {
@@ -30,4 +34,4 @@ if (!base.endsWith('/')) {
 <link rel="shortcut icon" href={`${base}favicon.png`} type="image/x-icon">
 <link rel="icon" href={`${base}favicon.png`}>
 
-<title>{title} - Kierownik's site</title>
+<title>{title}</title>
