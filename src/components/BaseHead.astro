@@ -8,6 +8,8 @@ interface Props {
 let { title } = Astro.props;
 if (!title) {
     title = 'Kierownik\'s site';
+} else {
+    title += ' — Kierownik\'s site';
 }
 
 let base = import.meta.env.BASE_URL;
