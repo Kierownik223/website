@@ -32,3 +32,7 @@ p img {
 em img {
     float: inline-end;
 }
+
+strong img {
+    width: initial;
+}
