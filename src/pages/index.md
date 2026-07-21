@@ -69,10 +69,18 @@ From most to least I also enjoy spending my time on:
 
 **Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with.
 
-**![My pronouns are he/him](/assets/buttons/him.gif)
-![Go ahead and use anything you want!](/assets/buttons/any.gif)
+**![Go ahead and use anything you want!](/assets/buttons/any.gif)
 ![Robots are not welcome!](/assets/buttons/eyes.gif)
 [![Hosted on MARMAK servers](/assets/buttons/fedora.gif)](https://marmak.net.pl/services)
 [![Source code on GPLv3](/assets/buttons/gpl3.gif)](https://git.marmak.net.pl/Kierownik223/website)
-![Powered by the Linux kernel](/assets/buttons/linux.gif)
-![Best viewed on a computer](/assets/buttons/phone.gif)**
+[![Made on GNU/Linux](/assets/buttons/linux.gif)](equipment/laptops/elitebang)
+[![Get a PC already](/assets/buttons/phone.gif)](equipment#pcs)
+[![Download Firefox](/assets/buttons/mozilla.gif)](https://www.firefox.com/download/all/)
+[![Fuck Facebook](/assets/buttons/fb.gif)](https://sup.live.net.co)
+![I explode](/assets/buttons/iexploder.gif)
+[![Visit my profile on One Live Network](/assets/buttons/oln.gif)](https://me.live.net.co/Kierownik223)
+[![Cisco LAN](/assets/buttons/cisco.gif)](equipment/networking/cisco-897va)
+[![My PocketPC software](/assets/buttons/ppc.gif)](https://dl.marmak.net.pl/software/PocketPC/)
+![IPv6 ready](/assets/buttons/ipv6.gif)
+![Stop Web3](/assets/buttons/web3.gif)
+![Stop Microsoft, or let them die by themselves](/assets/buttons/microslop.gif)**
