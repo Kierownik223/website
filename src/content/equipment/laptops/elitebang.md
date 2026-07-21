@@ -25,6 +25,7 @@ My current laptop, bought as refurbished for a fair price.
 ### Accessories:
 
 - Power supply: HP 45W
+- Docking station: HP Elite x3 Desk Dock
 
 ### Uses:
 
