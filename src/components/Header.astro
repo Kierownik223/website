@@ -16,8 +16,6 @@ if (!base.endsWith('/')) {
 
 const links = [
     { href: `${base}`, label: "Home", id: "home" },
-    { href: `${base}about`, label: "About", id: "about" },
-    { href: `${base}facts`, label: "Facts", id: "facts" },
     { href: `${base}contact`, label: "Contact", id: "contact" },
     { href: `${base}equipment`, label: "Equipment", id: "equipment" },
     { href: `${base}neighbours`, label: "Neighbours", id: "neighbours" },
@@ -43,9 +41,8 @@ const links = [
         }
     </ul>
 </nav>
-<style>
+<style is:global>
     header {
-        font-family: 'Courier New', Courier, monospace;
         padding: 5px 0;
         margin: 10px auto;
         width: 90vw;
@@ -63,7 +60,6 @@ const links = [
     }
 
     nav ul {
-        font-family: 'Courier New', Courier, monospace;
         width: 90vw;
         list-style-type: none;
         margin: 0 auto;

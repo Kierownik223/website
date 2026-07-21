@@ -1,6 +1,6 @@
 body {
-    font-family: 'Rubik', 'Segoe UI', sans-serif;
-    background: #000;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1c042e;
     color: #e9ddff;
 }
 
@@ -27,4 +27,13 @@ a {
 p img {
     width: 20%;
     height: auto;
+}
+
+em img {
+    float: inline-end;
+}
+
+strong img {
+    width: 88px;
+    height: 31px;
 }

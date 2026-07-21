@@ -36,7 +36,7 @@ if (!base.endsWith('/')) {
 <h2>My equipment</h2>
 {
     Object.entries(groupedItems).map(([category, items]) => (
-        <h2 class="marker">{category} <small>(Total: {items.reduce((sum, p) => sum + (p.data.count || 0), 0)})</small></h2>
+        <h2 class="marker" id={category.toLowerCase().replaceAll("'", '')}>{category} <small>(Total: {items.reduce((sum, p) => sum + (p.data.count || 0), 0)})</small></h2>
         <div class="grid">
             {items.map((p) => (
                 <div class="device">
