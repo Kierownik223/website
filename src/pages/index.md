@@ -69,7 +69,8 @@ From most to least I also enjoy spending my time on:
 
 **Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with.
 
-**![Go ahead and use anything you want!](/assets/buttons/any.gif)
+**[![Get my button here!](/assets/buttons/kierovh.gif)](/assets/buttons/kierovh.gif)
+![Go ahead and use anything you want!](/assets/buttons/any.gif)
 ![Robots are not welcome!](/assets/buttons/eyes.gif)
 [![Hosted on MARMAK servers](/assets/buttons/fedora.gif)](https://marmak.net.pl/services)
 [![Source code on GPLv3](/assets/buttons/gpl3.gif)](https://git.marmak.net.pl/Kierownik223/website)
