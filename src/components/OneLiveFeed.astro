@@ -1,0 +1,40 @@
+---
+import { OLN_FEED_URL } from "../constants";
+
+const res = await fetch(OLN_FEED_URL);
+const feedRoot = await res.json();
+const feed = feedRoot.feed;
+const posts = feed.entries;
+
+type Post = {
+    id: string;
+    type: string;
+    title: string;
+    summaryHtml: string;
+    contentHtml: string;
+    link: string;
+    author: string;
+    updated: Date;
+};
+---
+
+<h2>{feed.title}</h2>
+<small>Last update: {new Date(feed.updated).toLocaleString("en-GB")}</small>
+
+<div class="grid">
+    {
+        posts.map((p: Post) => (
+            <div class="device">
+                <h3 set:html={p.summaryHtml} />
+                <p set:html={p.contentHtml} />
+            </div>
+        ))
+    }
+</div>
+
+<style is:global>
+    .sp_music_cover {
+        width: 80px;
+        height: 80px;
+    }
+</style>
