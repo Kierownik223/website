@@ -27,16 +27,16 @@ foreach ($posts as $post) {
 
 $html[] = '</div>';
 
-$generated = implode('\n', $html);
+$generated = implode('', $html);
 
-$page = file_get_contents('olfeed.html');
+$page = file_get_contents(__DIR__ . '/olfeed.html');
 if ($page === false) {
     die('Failed to read olfeed.html');
 }
 
 $dom = new DOMDocument();
 libxml_use_internal_errors(true);
-$dom->loadHTMLFile('olfeed.html');
+$dom->loadHTMLFile(__DIR__ . '/olfeed.html');
 libxml_clear_errors();
 
 $xpath = new DOMXPath($dom);
@@ -50,6 +50,4 @@ $fragment = $dom->createDocumentFragment();
 $fragment->appendXML($generated);
 $main->appendChild($fragment);
 
-$dom->saveHTMLFile('olfeed.html');
-
-file_put_contents('olfeed.html', $page);
+$dom->saveHTMLFile(__DIR__ . '/olfeed.html');
