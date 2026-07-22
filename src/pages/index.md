@@ -84,4 +84,5 @@ From most to least I also enjoy spending my time on:
 [![My PocketPC software](/assets/buttons/ppc.gif)](https://dl.marmak.net.pl/software/PocketPC/)
 ![IPv6 ready](/assets/buttons/ipv6.gif)
 ![Stop Web3](/assets/buttons/web3.gif)
-![Stop Microsoft, or let them die by themselves](/assets/buttons/microslop.gif)**
+![Stop Microsoft, or let them die by themselves](/assets/buttons/microslop.gif)
+[![Figura](/assets/buttons/figura.gif)](/assets/buttons/figura.gif)**
