@@ -67,6 +67,40 @@ But then, randomly, in some sketchy app I got from the Microsoft Store it showed
 
 While on Windows I managed this modem can also receive SMS, not sure about sending them as I don't have cash on my card at the moment, but receiving sure does work. Windows shows all of these messages as "operator messages", even tho I had my friends send me texts, so that's not really the operator, or is it?
 
+### LTE modem — part two
+
+A few days have passed and I've been happily using the modem under Linux as my backup Internet uplink in case my ISP decided to fail me.
+
+It was right as I was trying to upload [Live Store](https://store.live.net.co) version 1.4.2.0 to the public that tragedy struck. Before, I had updated my kernel, as I have started using the regular kernel package from Arch after submitting [my patch](#mute-leds). But now my laptop won't boot past GRUB, with an immediate kernel panic.
+
+So I started diagnosing, the first thing that came to mind, my LTE modem setup, was absolutely correct. I have blacklisted the `xmm7360` module using `module_blacklist=xmm7360` as my kernel parameter and... the system booted. Do note that my modem was still working even after blacklisting the module(!)
+
+I then completely forgot about the issue at hand only to discover it the next day when I went to turn on my laptop. 
+I then went ahead to remove the problematic module, which in my case was via DKMS, so `xmm7360-pci-spat-dkms-git`, but it said to also remove `xmm7360-pci-spat-utils-git`, so I did...
+
+Little did I know that second package contained my modified to hell `open_xdatachannel.py` file and the systemd service I used to start it. I said "no biggie, I'll just redownload it". Boy was I wrong.
+
+I then downloaded it again, set it up like I thought I have, but... it wouldn't get an IPv6 address. My debugging even went to the point of downloading a Fedora 44 live ISO and booting off it to find IPv6 working.
+
+What I didn't know at the time, was that before the whole incident has happened, I was using the `iosm` driver ALL THAT DAMN TIME. So after it working on Fedora and not Arch again, I have read up on [the Github issue](https://github.com/xmm7360/xmm7360-pci/issues/222) I have used to set it up on Fedora initially, to then discover this *one little line*:
+
+> I found that the `open_xdatachannel.py` script actually works with the mainline kernel's `iosm` module because the script can pick up the `/dev/wwan0xmmrpc0` device and initialize the modem from there. Hence, no further kernel changes are required - all changes required are now in ModemManager, see https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/issues/612#note_1700608.
+
+Then it struck me, what if I was using `iosm` all the time?  
+I rushed to my terminal and ran
+```
+sudo rmmod xmm7360
+sudo insmod iosm
+sudo insmod /usr/lib/modules/7.1.4-arch1-1/kernel/drivers/net/wwan/iosm/iosm.ko.zst
+```
+With that second command failing, of course. I ran the `open_xdatachannel.py` file again, and... IT WORKED!! I had working IPv6 again.
+
+But I wasn't going to give up this easy now, so I went in the config and enabled DBus. To my absolute amazement and surprise (I literally jumped out of my chair in disbelief) it showed an active connection in GNOME Control Center!!!! I'm flabbergasted even writing this a few hours later, and I'm using the modem connection right now.
+
+One caveat of this DBus integration is the fact you can't really get IPv6, which is what led me down this path in the first place. But I had to pick my poison and ultimately wanted to see the signal strength and "Cellular" in my settings and have its power properly managed rather than IPv6 which makes my Internet barely faster yet I still don't have it at home so it's a bummer.
+
+Hope this might help somebody someday, if anyone's here for the code I used, it's up on [MARMAK's Git instance](https://git.marmak.net.pl/Kierownik223/xmm7360-pci).
+
 ### Backstory
 
 One day my bag fell off a table, and in that bag was my old laptop [EliteBook](elitebook). Some plastics broke, but I decided to glue it back together.  
