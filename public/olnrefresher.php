@@ -27,12 +27,7 @@ foreach ($posts as $post) {
 
 $html[] = '</div>';
 
-$generated = implode('', $html);
-
-$page = file_get_contents(__DIR__ . '/olfeed.html');
-if ($page === false) {
-    die('Failed to read olfeed.html');
-}
+$generated = implode('', $html);`
 
 $dom = new DOMDocument();
 libxml_use_internal_errors(true);
