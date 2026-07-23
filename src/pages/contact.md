@@ -16,5 +16,5 @@ current: "contact"
 ### Other accounts
 
 - GitHub: [Kierownik223](https://github.com/Kierownik223)
-- MARMAK Coroporate Git: [Kierownik223](https://git.marmak.net.pl/Kierownik223)
+- MARMAK Corporate Git: [Kierownik223](https://git.marmak.net.pl/Kierownik223)
 - Bluesky: [kier.ovh](https://bsky.app/profile/kier.ovh)
