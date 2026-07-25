@@ -27,7 +27,7 @@ foreach ($posts as $post) {
 
 $html[] = '</div>';
 
-$generated = implode('', $html);`
+$generated = implode('', $html);
 
 $dom = new DOMDocument();
 libxml_use_internal_errors(true);
