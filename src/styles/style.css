@@ -38,6 +38,10 @@ strong img {
     height: 31px;
 }
 
+hr {
+    border: #6750A4 1px solid;
+}
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: #f8f8fc;

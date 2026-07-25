@@ -67,6 +67,8 @@ But then, randomly, in some sketchy app I got from the Microsoft Store it showed
 
 While on Windows I managed this modem can also receive SMS, not sure about sending them as I don't have cash on my card at the moment, but receiving sure does work. Windows shows all of these messages as "operator messages", even tho I had my friends send me texts, so that's not really the operator, or is it?
 
+---
+
 ### LTE modem — part two
 
 A few days have passed and I've been happily using the modem under Linux as my backup Internet uplink in case my ISP decided to fail me.
