@@ -37,3 +37,18 @@ strong img {
     width: 88px;
     height: 31px;
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f8f8fc;
+        color: #000;
+    }
+
+    .main {
+        border-top: #5c327c solid 1px;
+    }
+
+    a {
+        color: #5c327c;
+    }
+}
