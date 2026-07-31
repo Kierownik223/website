@@ -25,23 +25,23 @@ const links = [
 
 <header>
     <h1>kier(.)ov(h)nik{(current != "home" && (<span>/{current}</span>))}</h1>
+    <nav>
+        <ul>
+            {
+                links.map((link) => (
+                    <li>
+                        <a
+                            href={link.href}
+                            class={link.id.startsWith(current) ? "selected" : ""}
+                            >
+                            {link.label}
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </nav>
 </header>
-<nav>
-    <ul>
-        {
-            links.map((link) => (
-                <li>
-                    <a
-                        href={link.href}
-                        class={link.id.startsWith(current) ? "selected" : ""}
-                    >
-                        {link.label}
-                    </a>
-                </li>
-            ))
-        }
-    </ul>
-</nav>
 <style is:global>
     header {
         padding: 5px 0;
@@ -91,6 +91,55 @@ const links = [
     @media (prefers-color-scheme: light) {
         nav a {
             color: #5c327c;
+        }
+
+        @media (min-width: 600px) {
+            header {
+                border-right: #5c327c solid 1px;
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        header {
+            position: fixed;
+            left: 0;
+            right: 0;
+            width: 250px;
+            height: 100vh;
+            margin: 0 10px;
+            list-style: none;
+            border-right: #282828 solid 1px;
+            padding: 0px;
+        }
+
+        .main {
+            width: calc(100% - 250px);
+            margin-left: 250px;
+            padding-left: 10px;
+            border-top: none;
+        }
+
+        footer {
+            margin-left: 250px !important;
+            width: calc(100% - 250px);
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            width: 100%;
+            list-style-type: circle;
+            padding: 20px;
+            overflow: auto;
+            margin: 0px;
+            font-size: 16px;
+        }
+
+        nav li {
+            float: none;
         }
     }
 </style>
