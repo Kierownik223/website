@@ -5,7 +5,8 @@ current: "home"
 
 ## Hi!
 
-I'm **Kierownik223**, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things. I live in Poland, and I speak Polish, English, Spanish, and a bit of German and Russian.  
+I'm **Kierownik223**, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things.  
+I live in Poland, and I speak Polish, English, Spanish, and a bit of German and Russian.  
 I'm fascinated with all things electronics, tho mainly enterprise/embedded stuff, programming and phones.
 
 I also go by just Kierownik, prezes_zarzadu or kier.ovh on social media.  
@@ -67,7 +68,7 @@ From most to least I also enjoy spending my time on:
 - I started programming when I was 9 years old
 - Most of [the stuff I use](equipment) is chosen because I'm used to it or I like it
 
-**Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with.
+**Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with, or for any questions, feel free to [contact](contact) me!
 
 **[![Get my button here!](/assets/buttons/kierovh.gif)](/assets/buttons/kierovh.gif)
 ![Go ahead and use anything you want!](/assets/buttons/any.gif)
