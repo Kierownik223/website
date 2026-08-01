@@ -87,4 +87,5 @@ From most to least I also enjoy spending my time on:
 ![Stop Web3](/assets/buttons/web3.gif)
 ![Stop Microsoft, or let them die by themselves](/assets/buttons/microslop.gif)
 [![Figura](/assets/buttons/figura.gif)](/assets/buttons/figura.gif)
-[![HP EliteBook 830 G8](/assets/buttons/830g8.gif)](equipment/laptops/elitebang)**
+[![HP EliteBook 830 G8](/assets/buttons/830g8.gif)](equipment/laptops/elitebang)
+[![No phones?](/assets/buttons/nophones.gif)](equipment#phones)**
