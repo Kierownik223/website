@@ -24,7 +24,7 @@ My secondary PC, used mainly as a period-correct Windows 7 rig.
     - Secondary drive: WDC WD5000BPKX 500GB SATA HDD
     - Tertiary drive: Seagate ST500DM002 500GB SATA HDD
 - Optical drive: HL-DT-ST DVD+-RW GSA-H31L
-- Graphics card: AMD Radeon HD 4200 (Integrated)
+- Graphics card: AMD FirePro W4100 2GB
 - CPU cooler: Stock HP cooler
 - Power supply: Stock HP 320W PSU
 - Case: HP Compaq 6005 Pro SFF
@@ -40,13 +40,7 @@ My secondary PC, used mainly as a period-correct Windows 7 rig.
 
 ### Uses:
 
-- Windows 7:
-    - General web browsing
-    - Nostalgia
-    - PocketPC developement
-    - Windows Phone 7 developement
-- Windows XP:
-    - Nostalgia
-- Arch Linux:
-    - General usage
-    - Developement
+- General web browsing
+- Nostalgia
+- PocketPC developement
+- Windows Phone 7 developement
