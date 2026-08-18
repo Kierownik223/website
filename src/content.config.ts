@@ -11,6 +11,7 @@ const equipmentCollection = defineCollection({
         category: z.string(),
         description: z.string(),
         count: z.number().default(1),
+        hostname: z.string().optional(),
     }),
 });
 
