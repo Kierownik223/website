@@ -2,6 +2,7 @@
 title: "Nokia N900"
 category: "Phones"
 description: "Maemo 5, postmarketOS"
+hostname: "GermaN900, Xx_009N_Nokia_N900_xX"
 count: 2
 meaningful: true
 ---

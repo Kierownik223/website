@@ -1,13 +1,14 @@
 ---
 title: "Nokia Lumia 930 Gold"
 category: "Phones"
-description: "Main phone, Windows Phone 8.1 Update"
+description: "Windows Phone 8.1 Update"
+hostname: "Gold"
 meaningful: true
 ---
 
 ## Nokia Lumia 930 Gold
 
-My main phone, bought on Vinted for 80 PLN + shipping. Kinda beat up but I don't mind it.  
+Bought on Vinted for 80 PLN + shipping. Kinda beat up but I don't mind it.  
 Works fine on Orange's LTE network. Got HERE offline maps on it.
 
 ### Fun facts

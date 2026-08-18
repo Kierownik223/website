@@ -2,6 +2,7 @@
 title: "HTC Touch Pro2"
 category: "Phones"
 description: "Windows Mobile 6.5"
+hostname: "Gdańsk"
 meaningful: true
 ---
 

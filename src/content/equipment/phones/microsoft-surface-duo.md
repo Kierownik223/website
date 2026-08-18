@@ -2,6 +2,7 @@
 title: "Microsoft Surface Duo"
 category: "Phones"
 description: "Android 12L"
+hostname: "Duo"
 meaningful: true
 ---
 
