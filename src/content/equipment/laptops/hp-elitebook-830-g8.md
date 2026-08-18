@@ -1,8 +1,9 @@
 ---
 priority: 1
-title: "EliteBang"
+title: "HP EliteBook 830 G8"
 category: "Laptops"
 description: "Primary laptop"
+hostname: "EliteBang"
 meaningful: true
 ---
 

@@ -1,8 +1,9 @@
 ---
 priority: 1
-title: "Proboszcz"
+title: "HP ProBook 650 G5"
 category: "Laptops"
 description: "Hackintosh PC, macOS Sequoia"
+hostname: "Proboszcz"
 meaningful: true
 ---
 

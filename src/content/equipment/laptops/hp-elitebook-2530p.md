@@ -1,7 +1,8 @@
 ---
-title: "EliteBook"
+title: "HP EliteBook 2530p"
 category: "Laptops"
 description: "Retired primary laptop"
+hostname: "EliteBook"
 meaningful: true
 ---
 

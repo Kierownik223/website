@@ -1,7 +1,8 @@
 ---
-title: "Klapek"
+title: "HP Compaq 6005 Pro SFF"
 category: "PC's"
 description: "Secondary PC"
+hostname: "Klapek"
 meaningful: true
 ---
 
