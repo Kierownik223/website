@@ -98,6 +98,8 @@ sudo insmod /usr/lib/modules/7.1.4-arch1-1/kernel/drivers/net/wwan/iosm/iosm.ko.
 ```
 With that second command failing, of course. I ran the `open_xdatachannel.py` file again, and... IT WORKED!! I had working IPv6 again.
 
+I went ahead and installed ModemManager version 1.25 from the Arch User Repository, then uninstalled it and compiled it from source, only replacing the main binary so that PacMan can still update it.
+
 But I wasn't going to give up this easy now, so I went in the config and enabled DBus. To my absolute amazement and surprise (I literally jumped out of my chair in disbelief) it showed an active connection in GNOME Control Center!!!! I'm flabbergasted even writing this a few hours later, and I'm using the modem connection right now.
 
 One caveat of this DBus integration is the fact you can't really get IPv6, which is what led me down this path in the first place. But I had to pick my poison and ultimately wanted to see the signal strength and "Cellular" in my settings and have its power properly managed rather than IPv6 which makes my Internet barely faster yet I still don't have it at home so it's a bummer.
