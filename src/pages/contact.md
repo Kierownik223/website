@@ -21,3 +21,9 @@ current: "contact"
 - Bluesky: [kier.ovh](https://bsky.app/profile/kier.ovh)
 
 I do also operate other accounts although I don't check them all that much. If you want to reach me, please do that by these methods for the best chance of me seeing your inquiry.
+
+### IPv6
+
+In case anyone wants to know my experimental IPv6 subnets, here they are:
+
+- 2001:470:5a5e::/48, 2001:470:6f:4cd::/64: [Firma-X-R1 TunnelBroker delegation](equipment/networking/cisco-897va)
