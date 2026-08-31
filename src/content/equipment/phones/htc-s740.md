@@ -26,8 +26,10 @@ I managed to follow thru the instructions, get a little bit confused at the end 
 
 ### Photos
 
-[![Bubble Breaker](/assets/htc-s740-1.jpg)](/assets/htc-s740-1.jpg)
-[![Solitaire](/assets/htc-s740-2.jpg)](/assets/htc-s740-2.jpg)
-[![Standing posture](/assets/htc-s740-3.jpg)](/assets/htc-s740-3.jpg)
-[![Orange EDGE network](/assets/htc-s740-4.jpg)](/assets/htc-s740-4.jpg)
-[![One Live Network](/assets/htc-s740-5.jpg)](/assets/htc-s740-5.jpg)
+<div class="gallery">
+<a href="/assets/htc-s740-1.jpg"><img src="/assets/htc-s740-1.jpg" alt="Bubble Breaker"></a>
+<a href="/assets/htc-s740-2.jpg"><img src="/assets/htc-s740-2.jpg" alt="Solitaire"></a>
+<a href="/assets/htc-s740-3.jpg"><img src="/assets/htc-s740-3.jpg" alt="Standing posture"></a>
+<a href="/assets/htc-s740-4.jpg"><img src="/assets/htc-s740-4.jpg" alt="Orange EDGE network"></a>
+<a href="/assets/htc-s740-5.jpg"><img src="/assets/htc-s740-5.jpg" alt="One Live Network"></a>
+</div>

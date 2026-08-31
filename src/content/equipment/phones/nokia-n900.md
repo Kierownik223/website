@@ -30,8 +30,9 @@ It's a fun journey nontheless.
 
 ### Photos
 
-[![2 phones - front panels](/assets/nokia-n900-1.jpg)](/assets/nokia-n900-1.jpg)
-[![MARMAK Mirror](/assets/nokia-n900-2.jpg)](/assets/nokia-n900-2.jpg)
-[![FM Transmitter with changed RDS info](/assets/nokia-n900-3.jpg)](/assets/nokia-n900-3.jpg)
-[![Serving MARMAK Mirror](/assets/nokia-n900-4.jpg)](/assets/nokia-n900-4.jpg)
-
+<div class="gallery">
+<a href="/assets/nokia-n900-1.jpg"><img src="/assets/nokia-n900-1.jpg" alt="2 phones - front panels"></a>
+<a href="/assets/nokia-n900-2.jpg"><img src="/assets/nokia-n900-2.jpg" alt="MARMAK Mirror"></a>
+<a href="/assets/nokia-n900-3.jpg"><img src="/assets/nokia-n900-3.jpg" alt="FM Transmitter with changed RDS info"></a>
+<a href="/assets/nokia-n900-4.jpg"><img src="/assets/nokia-n900-4.jpg" alt="Serving MARMAK Mirror"></a>
+</div>

@@ -21,6 +21,8 @@ Bought in June, 2024 for 30 PLN on Allegro. One of, if not the rarest production
 
 ## Photos
 
-[![Rear panel](/assets/lumia-1020-64gb-1.jpg)](/assets/lumia-1020-64gb-1.jpg)
-[![Storage sense page showing 58GB of total storage](/assets/lumia-1020-64gb-2.jpg)](/assets/lumia-1020-64gb-2.jpg)
-[![A photo of Kierownik wielding the phone on a party](/assets/lumia-1020-64gb-3.jpg)](/assets/lumia-1020-64gb-3.jpg)
+<div class="gallery">
+<a href="/assets/lumia-1020-64gb-1.jpg"><img src="/assets/lumia-1020-64gb-1.jpg" alt="Rear panel"></a>
+<a href="/assets/lumia-1020-64gb-2.jpg"><img src="/assets/lumia-1020-64gb-2.jpg" alt="Storage sense page showing 58GB of total storage"></a>
+<a href="/assets/lumia-1020-64gb-3.jpg"><img src="/assets/lumia-1020-64gb-3.jpg" alt="A photo of Kierownik wielding the phone on a party"></a>
+</div>

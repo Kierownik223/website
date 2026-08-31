@@ -19,5 +19,7 @@ Works fine on Orange's LTE network. Got HERE offline maps on it.
 
 ### Photos
 
-[![Rear panel](/assets/lumia-930-gold-1.jpg)](/assets/lumia-930-gold-1.jpg)
-[![Front panel with mobiDziennik homepage](/assets/lumia-930-gold-2.jpg)](/assets/lumia-930-gold-2.jpg)
+<div class="gallery">
+<a href="/assets/lumia-930-gold-1.jpg"><img src="/assets/lumia-930-gold-1.jpg" alt="Rear panel"></a>
+<a href="/assets/lumia-930-gold-2.jpg"><img src="/assets/lumia-930-gold-2.jpg" alt="Front panel with mobiDziennik homepage"></a>
+</div>

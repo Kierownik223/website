@@ -20,6 +20,8 @@ My main study device (I take notes on it and use it as an e-book reader). Bought
 
 ### Photos
 
-[![Clash of Clans](/assets/surface-duo-1.jpg)](/assets/surface-duo-1.jpg)
-[![Lock screen from April, 2025](/assets/surface-duo-2.jpg)](/assets/surface-duo-2.jpg)
-[![Original box](/assets/surface-duo-3.jpg)](/assets/surface-duo-3.jpg)
+<div class="gallery">
+<a href="/assets/surface-duo-1.jpg"><img src="/assets/surface-duo-1.jpg" alt="Clash of Clans"></a>
+<a href="/assets/surface-duo-2.jpg"><img src="/assets/surface-duo-2.jpg" alt="Lock screen from April, 2025"></a>
+<a href="/assets/surface-duo-3.jpg"><img src="/assets/surface-duo-3.jpg" alt="Original box"></a>
+</div>

@@ -25,7 +25,9 @@ Intrigued, I got out my Elite x3 and tried it out. To my surprise, it actually w
 
 ### Photos
 
-[![Rear panel](/assets/hp-elite-x3-1.jpg)](/assets/hp-elite-x3-1.jpg)
-[![Phone docked displaying the Start screen](/assets/hp-elite-x3-2.jpg)](/assets/hp-elite-x3-2.jpg)
-[![Groove Music playing "Crimewave (Keith Remix)" by Crystal Castles](/assets/hp-elite-x3-3.jpg)](/assets/hp-elite-x3-3.jpg)
-[![Barcode scanner case](/assets/hp-elite-x3-4.jpg)](/assets/hp-elite-x3-4.jpg)
+<div class="gallery">
+<a href="/assets/hp-elite-x3-1.jpg"><img src="/assets/hp-elite-x3-1.jpg" alt="Rear panel"></a>
+<a href="/assets/hp-elite-x3-2.jpg"><img src="/assets/hp-elite-x3-2.jpg" alt="Phone docked displaying the Start screen"></a>
+<a href="/assets/hp-elite-x3-3.jpg"><img src="/assets/hp-elite-x3-3.jpg" alt="Groove Music playing "Crimewave (Keith Remix)" by Crystal Castles"></a>
+<a href="/assets/hp-elite-x3-4.jpg"><img src="/assets/hp-elite-x3-4.jpg" alt="Barcode scanner case"></a>
+</div>

@@ -60,6 +60,8 @@ The Virtual-PPP interface was still set to 1400 and the 6in4 tunnel was set to 1
 
 ### Photos
 
-[![My makeshift power cable](/assets/cisco-897va-1.jpg)](/assets/cisco-897va-1.jpg)
-[![Port selection](/assets/cisco-897va-2.jpg)](/assets/cisco-897va-2.jpg)
-[![Current setup](/assets/cisco-897va-3.jpg)](/assets/cisco-897va-3.jpg)
+<div class="gallery">
+<a href="/assets/cisco-897va-1.jpg"><img src="/assets/cisco-897va-1.jpg" alt="My makeshift power cable"></a>
+<a href="/assets/cisco-897va-2.jpg"><img src="/assets/cisco-897va-2.jpg" alt="Port selection"></a>
+<a href="/assets/cisco-897va-3.jpg"><img src="/assets/cisco-897va-3.jpg" alt="Current setup"></a>
+</div>

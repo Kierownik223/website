@@ -21,8 +21,10 @@ Very good condition.
 
 ## Photos
 
-[![Keyboard open, tilted screen](/assets/htc-touch-pro2-1.jpg)](/assets/htc-touch-pro2-1.jpg)
-[![Keyboard open, showing rear sticker](/assets/htc-touch-pro2-2.jpg)](/assets/htc-touch-pro2-2.jpg)
-[![Rear panel](/assets/htc-touch-pro2-3.jpg)](/assets/htc-touch-pro2-3.jpg)
-[![Front panel](/assets/htc-touch-pro2-4.jpg)](/assets/htc-touch-pro2-4.jpg)
-[![Keyboard open, front](/assets/htc-touch-pro2-5.jpg)](/assets/htc-touch-pro2-5.jpg)
+<div class="gallery">
+<a href="/assets/htc-touch-pro2-1.jpg"><img src="/assets/htc-touch-pro2-1.jpg" alt="Keyboard open, tilted screen"></a>
+<a href="/assets/htc-touch-pro2-2.jpg"><img src="/assets/htc-touch-pro2-2.jpg" alt="Keyboard open, showing rear sticker"></a>
+<a href="/assets/htc-touch-pro2-3.jpg"><img src="/assets/htc-touch-pro2-3.jpg" alt="Rear panel"></a>
+<a href="/assets/htc-touch-pro2-4.jpg"><img src="/assets/htc-touch-pro2-4.jpg" alt="Front panel"></a>
+<a href="/assets/htc-touch-pro2-5.jpg"><img src="/assets/htc-touch-pro2-5.jpg" alt="Keyboard open, front"></a>
+</div>

@@ -25,17 +25,18 @@ a {
 }
 
 p img {
-    width: 20%;
-    height: auto;
-}
-
-em img {
     float: inline-end;
+    max-width: 35%;
 }
 
-strong img {
+.buttons img {
     width: 88px;
     height: 31px;
+}
+
+.gallery img {
+    width: auto;
+    height: 250px;
 }
 
 hr {
