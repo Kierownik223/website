@@ -8,7 +8,8 @@ meaningful: true
 
 ### Netgear WNDR3700 v1
 
-An access point for my [Cisco 897VA](cisco-897va) as I don't want to run Ethernet cables everywhere. Upgraded to it from my old Ovislink as I wanted to run multiple SSID's for multiple VLAN's.
+~~An access point for my [Cisco 897VA](cisco-897va) as I don't want to run Ethernet cables everywhere. Upgraded to it from my old Ovislink as I wanted to run multiple SSID's for multiple VLAN's.~~
+Replaced with the [ASUS WR-AX1800U](asus-wr-ax1800u).
 
 Currently broadcasting:
 - 2,4 GHz
@@ -28,10 +29,12 @@ After failing miserably for a few hours I decided to try and build a custom imag
 
 ### nginx
 
-...I settled on the great idea to use this (now) access point as a web server to host the [Firma X website](https://firmax.kier.ovh). This was the whole reason for the extroot fiasco, I could've lived with this being a plain old access point.
+...I settled on the great idea to use this (now) access point as a web server to host the Firma X website. This was the whole reason for the extroot fiasco, I could've lived with this being a plain old access point.
 
-To install packages before I put it up on my IPv6-only subnet, because *why not?* so I decided to keep it that way, the IP is `2001:470:5a5e:dead::2115`, for some reason. The Cisco is set up in such a way as to allow all traffic to all devices on the subnet, as it's the free IPv6 subnet afterall, for testing, I guess.
+To install packages before I put it up on my IPv6-only subnet, because *why not?* so I decided to keep it that way. The Cisco is set up in such a way as to allow all traffic to all devices on the subnet, as it's the free IPv6 subnet afterall, for testing, I guess.
 
 I opened port 80 and 443 on the firewall, just for IPv6 tho, put LuCI on a different port for management, got around to learn UCI and configured nginx like in the elden days (I use [Caddy](https://caddyserver.com) now).
 
 And then I uploaded my amazing website I made in... *Microsoft Expression Web 4*, the shittiest software I could've used to the `/var/www` folder, only to find out it's a symlink to `/tmp`... scratch that. I uploaded the website to `/www/firmax`, ~~beat up~~ got Acme.sh to work and... boom! Now Firma X has got a website and it's in the most roundabout way I could've done it (tho I could have probably hosted it on the Cisco but I don't feel like torturing the flash).
+
+It's been retired right now as I'm looking for better solutions for a low-power webserver.
