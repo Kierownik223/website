@@ -27,6 +27,7 @@ a {
 p img {
     float: inline-end;
     max-width: 35%;
+    padding: 10px;
 }
 
 .buttons img {
@@ -41,6 +42,12 @@ p img {
 
 hr {
     border: #6750A4 1px solid;
+}
+
+img.profile {
+    float: inline-end;
+    max-width: 200px;
+    padding: 10px;
 }
 
 @media (prefers-color-scheme: light) {

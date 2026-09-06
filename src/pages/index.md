@@ -5,7 +5,8 @@ current: "home"
 
 ## Hi!
 
-![A picture of Kierownik223](/assets/me.jpg)
+<img src="assets/me.jpg" alt="A picture of Kierownik223" class="profile">
+
 I'm **Kierownik223**, the CEO and founder of [MARMAK](https://marmak.net.pl), among other things.  
 I live in Poland, and I speak Polish, English, Spanish, and a bit of German and Russian.  
 I'm fascinated with all things electronics, tho mainly enterprise/embedded stuff, programming and phones.
