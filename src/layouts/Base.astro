@@ -3,7 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-const { title, current, frontmatter } = Astro.props;
+const { title, current, frontmatter, htmlClass } = Astro.props;
 ---
 
 <!doctype html>
@@ -13,7 +13,7 @@ const { title, current, frontmatter } = Astro.props;
 	</head>
 	<body>
 		<Header current={current ? current : frontmatter.current } />
-		<div class="main">
+		<div class={ htmlClass ? htmlClass : "main" }>
 			<slot />
 		</div>
 		<Footer />

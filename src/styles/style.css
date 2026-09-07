@@ -27,7 +27,7 @@ a {
 p img {
     float: inline-end;
     max-width: 35%;
-    padding: 10px;
+    padding-inline-start: 10px;
 }
 
 .buttons img {
@@ -50,6 +50,7 @@ img.profile {
     padding: 10px;
 }
 
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: #f8f8fc;
@@ -62,5 +63,12 @@ img.profile {
 
     a {
         color: #5c327c;
+    }
+}
+
+@media (min-width: 1000px) {
+    .article {
+        text-align: justify;
+        padding-inline-end: 10px;
     }
 }
