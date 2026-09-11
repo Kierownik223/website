@@ -1,6 +1,10 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #1c042e;
+    background: #10021b;
+    background-image: url('/assets/crime.svg');
+    background-size: 300vw 300vw;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: #e9ddff;
 }
 
@@ -54,6 +58,7 @@ img.profile {
 @media (prefers-color-scheme: light) {
     body {
         background-color: #f8f8fc;
+        background-image: url('/assets/misdemeanor.svg');
         color: #000;
     }
 
