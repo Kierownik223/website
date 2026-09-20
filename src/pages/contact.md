@@ -19,6 +19,8 @@ current: "contact"
 - GitHub: [Kierownik223](https://github.com/Kierownik223)
 - MARMAK Corporate Git: [Kierownik223](https://git.marmak.net.pl/Kierownik223)
 - Bluesky: [kier.ovh](https://bsky.app/profile/kier.ovh)
+- [One Live Network](https://sup.live.net.co): [kierownik223](https://me.live.net.co/kierownik223)
+- [Kring.im](https://kring.im): kierownik223@kring.im
 
 I do also operate other accounts although I don't check them all that much. If you want to reach me, please do that by these methods for the best chance of me seeing your inquiry.
 
