@@ -2,9 +2,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background: #10021b;
     background-image: url('/assets/crime.svg');
-    background-size: 300vw 300vw;
+    background-size: 100vw 100vw;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    background-attachment: fixed;
     color: #e9ddff;
 }
 
