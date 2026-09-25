@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Code', 'Cascadia Code', 'Courier New', Courier, monospace;
     background: #10021b;
     background-image: url('/assets/crime.svg');
     background-size: 100vw 100vw;
