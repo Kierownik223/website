@@ -2,14 +2,15 @@
 title: "Netgear WNDR3700 v1"
 category: "Networking"
 description: "OpenWrt 25.12.5"
-hostname: "Firma-X-AP1"
+hostname: "Firma-Y"
 meaningful: true
 ---
 
-### Netgear WNDR3700 v1
+## Netgear WNDR3700 v1
 
 ~~An access point for my [Cisco 897VA](cisco-897va) as I don't want to run Ethernet cables everywhere. Upgraded to it from my old Ovislink as I wanted to run multiple SSID's for multiple VLAN's.~~
-Replaced with the [ASUS WR-AX1800U](asus-wr-ax1800u).
+Replaced with the [ASUS WR-AX1800U](asus-wr-ax1800u).  
+Now acting as Customer Premises Equipment (CPE) for FirmaX-ISP.
 
 Currently broadcasting:
 - 2,4 GHz
@@ -38,3 +39,10 @@ I opened port 80 and 443 on the firewall, just for IPv6 tho, put LuCI on a diffe
 And then I uploaded my amazing website I made in... *Microsoft Expression Web 4*, the shittiest software I could've used to the `/var/www` folder, only to find out it's a symlink to `/tmp`... scratch that. I uploaded the website to `/www/firmax`, ~~beat up~~ got Acme.sh to work and... boom! Now Firma X has got a website and it's in the most roundabout way I could've done it (tho I could have probably hosted it on the Cisco but I don't feel like torturing the flash).
 
 It's been retired right now as I'm looking for better solutions for a low-power webserver.
+
+### Firma X ISP CPE
+
+This router has now been repurpoused as a Firma X ISP customer router. The customer is Firma Y (Brand Y) and they are a small corner store which just needs internet access for a few hosts and cash registers.
+
+I have it configured as a DHCP client and DHCPv6 client for now. I will be trying PPPoE in the near future as for now my [Cisco](cisco-897va) doesn't like to do it. So it's just put on a separate VLAN with an IPv6 prefix delegation going (I have delegated a /52 from my /48 from which I delegate /56's to the "customers").
+
