@@ -2,7 +2,7 @@
 title: "Cisco 897VA"
 category: "Networking"
 description: "IOS 15.9"
-hostname: "Firma-X-R1"
+hostname: "FirmaX-R1"
 meaningful: true
 ---
 
@@ -16,7 +16,7 @@ It was originally used at PremiumOil.eu in Poznań, Poland, but somehow ended up
 I then used the configuration register 0x2142 to make it not load the config and erased the NVRAM once booted into IOS.  
 It came with IOS 15.2 but then I found a sketchy forum where someone shared a newer, IOS 15.9, image built in March, 2026(!).
 
-In the following days I configured it to be Firma-X-R1 or Brand-X-Router1 in English, set up VLANs and paired it with an old OvisLink AirLive WL-5460AP I had in my room.
+In the following days I configured it to be FirmaX-R1 or BrandX-Router1 in English, set up VLANs and paired it with an old OvisLink AirLive WL-5460AP I had in my room.
 
 ### IPv6
 
@@ -50,6 +50,25 @@ Router(config-int)#end
 ```
 
 The Virtual-PPP interface was still set to 1400 and the 6in4 tunnel was set to 1480 as intended.
+
+##### Amendment 1
+
+TL;DR: I managed to fix the MTU issues completely!
+
+One day I was experimenting with iPerf3 and testing the connection to my server, however, I noticed that IPv4 is much, much faster than IPv6, even though it should be the opposite as the Cisco is also doing NAT. Then I remembered I had set the MTU to 1280, so I set it back to 1500, but that made TLS not connect for four seconds!!
+
+After a bit of experimenting I was able to diagnose it to only being a TCP issue, so I did some digging, and on the WAN interface (for IPv6 that is) I put
+
+```
+FirmaX-R1(config)#int virtual-PPP1 (my vlan)
+FirmaX-R1(config-int)#ip mtu 1400
+FirmaX-R1(config-int)#ipv6 mtu 1400
+FirmaX-R1(config-int)#ip tcp adjust-mss 1360
+FirmaX-R1(config-int)#ipv6 tcp adjust-mss 1360
+FirmaX-R1(config-int)#end
+```
+
+And now it's working fine, communication with my server is now working as expected via both v4 and v6!
 
 ### Fun facts
 
