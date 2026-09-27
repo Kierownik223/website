@@ -70,6 +70,49 @@ FirmaX-R1(config-int)#end
 
 And now it's working fine, communication with my server is now working as expected via both v4 and v6!
 
+### Firma X ISP backbone router
+
+**IMPORTANT!!** I do **NOT** sell Internet services. The term "customer" is used analaogous to an end device connected via PPPoE.
+
+This router is also acting as the backbone router for Firma X ISP services. It is a glorified PPPoE concentrator with IPv6 Prefix Delegation and using the CG-NAT prefix as it's practically doing that.
+
+The IPv6 prefix is as follows:
+
+- 2001:470:75ec::/48
+- | 2001:470:75ec:f000::/52
+- | | 2001:470:75ec:f000::/56
+- | | 2001:470:75ec:f100::/56
+- | | 2001:470:75ec:f200::/56
+- | | ...
+- | | 2001:470:75ec:ff00::/56
+
+So each customer gets a /56, like Orange Poland, and I can have 16 customers on this /52.
+
+IPv4 is done in the CG-NAT prefix, so 100.64.0.0/10, I chose 10.67.168.0/24 for my subnet, and 10.67.222.0/24 for direct connections (not PPPoE).
+
+The path to the internet goes as follows:
+
+- IPv4
+    - CPE router  
+      | PPPoE
+    - Cisco (this router)  
+      | Gi8
+    - My home router  
+      | Gi0
+    - My ISP's router  
+      | GPON
+    - Their infra/The Internet
+- IPv6
+    - CPE router  
+      | PPPoE
+    - Cisco (this router)  
+      | L2TP
+    - Cloud VPS  
+      | 6in4
+    - Hurricane Electric TunnelBroker/The Internet
+
+It's a bit convolouted but it works and I'm excited to have such a setup in my room.
+
 ### Fun facts
 
 - What was meant to be a practise router became the heart of my legacy phone LAN
