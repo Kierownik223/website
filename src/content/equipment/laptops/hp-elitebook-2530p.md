@@ -42,4 +42,4 @@ One day I was showing off some of my cellphones and one of my relatives noticed 
 I of course said *yes* and the next time we met I was handed this beauty.  
 The only problem with it was that it was complaining about the date + time being incorrect but that's a non-issue considering this laptop's age.  
 Then I got a DVD-normal 2,5" SATA adapter, put in an SSD and installed Windows 7. From then on this laptop has ran everything from Windows 2000 (almost) up to Windows 11 which I installed for fun.  
-I have started using it daily when I got [Arch Linux](https://archlinux.org) on it and then replaced it with a new HP laptop, [EliteBang](elitebang).
+I have started using it daily when I got [Arch Linux](https://archlinux.org) on it and then replaced it with a new HP laptop, [EliteBang](hp-elitebook-830-g8).

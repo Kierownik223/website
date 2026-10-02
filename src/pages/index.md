@@ -88,5 +88,5 @@ From most to least I also enjoy spending my time on:
 <img src="/assets/buttons/web3.gif" alt="Stop Web3">
 <img src="/assets/buttons/microslop.gif" alt="Stop Microsoft, or let them die by themselves">
 <a href="/assets/buttons/figura.gif"><img src="/assets/buttons/figura.gif" alt="Figura"></a>
-<a href="equipment/laptops/elitebang"><img src="/assets/buttons/830g8.gif" alt="HP EliteBook 830 G8"></a>
+<a href="equipment/laptops/hp-elitebook-830-g8"><img src="/assets/buttons/830g8.gif" alt="HP EliteBook 830 G8"></a>
 <a href="equipment#phones"><img src="/assets/buttons/nophones.gif" alt="No phones?"></a></div>
