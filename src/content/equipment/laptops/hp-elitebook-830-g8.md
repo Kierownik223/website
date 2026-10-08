@@ -109,7 +109,7 @@ Hope this might help somebody someday, if anyone's here for the code I used, it'
 ### Backstory
 
 One day my bag fell off a table, and in that bag was my old laptop [EliteBook](elitebook). Some plastics broke, but I decided to glue it back together.  
-All was good until one day that decided to break too. That's when I decided to start looking for a new laptop under 1000 zł (somewhere in the US$250 range).  
+All was good until one day that decided to break too. That's when I decided to start looking for a new laptop under 1000 PLN (somewhere in the US$250 range).  
 I originally was going for a ThinkPad X280, but for the same price as that I found this; metal, 3 Intel generations newer, more upgradeable and (most important for me) HP laptop.  
-I asked my dad if 759 zł was a good price for an 11th gen Intel, and he said hell yeah, so he bought me this laptop.  
+I asked my dad if 759 PLN was a good price for an 11th gen Intel, and he said hell yeah, so he bought me this laptop.  
 I've been happy with it ever since I got it in February, 2026.
