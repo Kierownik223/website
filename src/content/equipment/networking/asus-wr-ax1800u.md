@@ -28,4 +28,8 @@ I ran into a problem as to where I couldn't enable VLANs on the WAN port, but it
 
 ### Photos
 
-*soon!*
+<div class="gallery">
+<a href="/assets/asus-wr-ax1800u-1.jpg"><img src="/assets/asus-wr-ax1800u-1.jpg" alt="Exterior case"></a>
+<a href="/assets/asus-wr-ax1800u-2.jpg"><img src="/assets/asus-wr-ax1800u-2.jpg" alt="Next to my Netgear"></a>
+<a href="/assets/asus-wr-ax1800u-3.jpg"><img src="/assets/asus-wr-ax1800u-3.jpg" alt="At school"></a>
+</div>
