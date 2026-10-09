@@ -1,3 +1,5 @@
+@import url('../fonts/CMUTTO.css');
+
 body {
     font-family: 'Rubik', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #10021b;
@@ -17,7 +19,8 @@ body {
     border-top: #282828 solid 1px;
 }
 
-h1, h2 {
+h1, h2, h3{
+    font-family: 'CMU Typewriter Text Oblique', 'Courier New', Courier, monospace;
     color: #6750A4;
 }
 

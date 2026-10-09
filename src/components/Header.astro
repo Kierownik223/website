@@ -21,6 +21,8 @@ const links = [
     { href: `${base}neighbours`, label: "Neighbours", id: "neighbours" },
     { href: `${base}olfeed`, label: "OLN feed", id: "olfeed" },
 ];
+
+import "../fonts/CMUTTO.css";
 ---
 
 <header>
@@ -44,7 +46,7 @@ const links = [
 </header>
 <style is:global>
     nav, header {
-        font-family: 'Fira Code', 'Cascadia Code', 'Courier New', Courier, monospace;
+        font-family: 'CMU Typewriter Text Oblique', 'Courier New', Courier, monospace;
     }
 
     header {
@@ -115,10 +117,11 @@ const links = [
             right: 0;
             width: 250px;
             height: 100vh;
-            margin: 0 10px;
+            margin: -20px 10px 0 10px;
             list-style: none;
             border-right: #282828 solid 1px;
             padding: 0px;
+            padding-top: 20px;
             overflow-wrap: break-word;
             overflow-x: hidden;
         }

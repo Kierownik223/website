@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'CMU Typewriter Text Oblique';
+    font-style: 'Oblique';
+    font-weight: normal;
+    src: local('CMU Typewriter Text'), url('cmunst.woff2') format('woff2'), url('cmunst.otf') format('otf');
+}
