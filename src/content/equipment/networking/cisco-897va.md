@@ -60,7 +60,7 @@ One day I was experimenting with iPerf3 and testing the connection to my server,
 After a bit of experimenting I was able to diagnose it to only being a TCP issue, so I did some digging, and on the WAN interface (for IPv6 that is) I put
 
 ```
-FirmaX-R1(config)#int virtual-PPP1 (my vlan)
+FirmaX-R1(config)#int virtual-PPP1 (my WAN)
 FirmaX-R1(config-int)#ip mtu 1400
 FirmaX-R1(config-int)#ipv6 mtu 1400
 FirmaX-R1(config-int)#ip tcp adjust-mss 1360
@@ -88,7 +88,7 @@ The IPv6 prefix is as follows:
 
 So each customer gets a /56, like Orange Poland, and I can have 16 customers on this /52.
 
-IPv4 is done in the CG-NAT prefix, so 100.64.0.0/10, I chose 10.67.168.0/24 for my subnet, and 10.67.222.0/24 for direct connections (not PPPoE).
+IPv4 is done in the CG-NAT prefix, so 100.64.0.0/10, I chose 100.64.0.0/24 for my subnet, and from that I assign 100.64.0.10 thru 100.64.0.100 to my "customers".
 
 The path to the internet goes as follows:
 
