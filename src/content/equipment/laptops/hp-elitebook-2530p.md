@@ -6,14 +6,14 @@ hostname: "EliteBook"
 meaningful: true
 ---
 
-## EliteBook
+## HP EliteBook 2530p
 
 My old primary laptop, currently lent to my friend.
 
 ### Specifications
 
 - Processor: Intel Core 2 Duo L9400 @ 1.87GHz
-- Model: HP EliteBook 2530p
+- Hostname: EliteBook
 - Memory (Total: 4GB):
     - Slot 0: Samsung 2GB DDR2 800MHz
     - Slot 1: Samsung 2GB DDR2 800MHz
@@ -22,6 +22,7 @@ My old primary laptop, currently lent to my friend.
     - Secondary drive: Toshiba 120GB SATA 1,8" HDD
 - Graphics card: Intel GMA (Integrated)
 - Display: 1280x800 LCD 12,4" 60Hz
+- OS: Arch Linux
 
 ### Accessories:
 
