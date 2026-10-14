@@ -34,3 +34,4 @@ Installed macOS Sequoia on it with my own OpenCore EFI made following the [OpenC
 
 - Web development
 - Testing
+- PPPoE testing for [CiscoSzpont](../networking/cisco-897va)
