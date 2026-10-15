@@ -1,9 +1,17 @@
 ---
+import { render } from "astro:content";
 import { getCollection } from "astro:content";
 
 let allItems = await getCollection("equipment");
 
-allItems.sort((a, b) => {
+const renderedItems = await Promise.all(
+    allItems.map(async (item) => {
+        const { Content } = await render(item);
+        return { ...item, Content };
+    }),
+);
+
+renderedItems.sort((a, b) => {
     const categoryCompare = a.data.category.localeCompare(b.data.category);
     if (categoryCompare !== 0) {
         return categoryCompare;
@@ -18,8 +26,8 @@ allItems.sort((a, b) => {
 });
 
 
-const groupedItems: Record<string, typeof allItems> = {};
-for (const item of allItems) {
+const groupedItems: Record<string, typeof renderedItems> = {};
+for (const item of renderedItems) {
     if (!groupedItems[item.data.category]) {
         groupedItems[item.data.category] = [];
     }
@@ -37,12 +45,29 @@ if (!base.endsWith('/')) {
 {
     Object.entries(groupedItems).map(([category, items]) => (
         <h3 class="marker" id={category.toLowerCase().replaceAll("'", '')}>{category} <small>(Total: {items.reduce((sum, p) => sum + (p.data.count || 0), 0)})</small></h3>
+        <>
+            {items.map((p) => (
+                p.data.title.toLowerCase() === '_index' && (
+                    <p.Content />
+                )
+            ))}
+        </>
         <div class="grid">
             {items.map((p) => (
-                <div class="device">
-                    <h4>{(p.data.count != 1) && (<small>{p.data.count}x</small>)} {(p.data.meaningful) ? (<a href={`${base}equipment/${p.data.category.replaceAll(" ", "-").replaceAll("'", "")}/${p.data.title.replaceAll(" ", "-").replaceAll("+", "plus")}`.toLowerCase()}>{p.data.title}</a>):(<span>{p.data.title}</span>)} {(p.data.hostname) && (<small> &mdash; {p.data.hostname}</small>)}</h4>
-                    <p>{p.data.description}</p>
-                </div>
+                p.data.title.toLowerCase() !== '_index' && (
+                    <div class="device">
+                        <h4>
+                            {(p.data.count != 1) && (<small>{p.data.count}x</small>)} {' '}
+                            {p.data.meaningful ? (
+                                <a href={`${base}equipment/${p.data.category.replaceAll(" ", "-").replaceAll("'", "")}/${p.data.title.replaceAll(" ", "-").replaceAll("+", "plus")}`.toLowerCase()}>{p.data.title}</a>
+                            ) : (
+                                <span>{p.data.title}</span>
+                            )}
+                            {(p.data.hostname) && (<small> &mdash; {p.data.hostname}</small>)}
+                        </h4>
+                        <p>{p.data.description}</p>
+                    </div>
+                )
             ))}
         </div>
     ))
