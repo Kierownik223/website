@@ -9,7 +9,7 @@ const equipmentCollection = defineCollection({
         meaningful: z.boolean().optional(),
         title: z.string(),
         category: z.string(),
-        description: z.string(),
+        description: z.string().optional(),
         count: z.number().default(1),
         hostname: z.string().optional(),
     }),
