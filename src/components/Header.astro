@@ -41,7 +41,7 @@ import "../fonts/CMUTTO.css";
                     </li>
                 ))
             }
-            <li><a href="javascript:;" id="themelink">Toggle theme</a></li>
+            <li><a id="themelink">Toggle theme</a></li>
         </ul>
     </nav>
 </header>
@@ -103,6 +103,10 @@ import "../fonts/CMUTTO.css";
 
     nav a:hover {
         text-decoration: underline;
+    }
+
+    a#themelink {
+        cursor: pointer;
     }
 
     @media (prefers-color-scheme: light) {
