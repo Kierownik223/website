@@ -28,4 +28,4 @@ I do also operate other accounts although I don't check them all that much. If y
 
 In case anyone wants to know my experimental IPv6 subnets, here they are:
 
-- 2001:470:75ec::/48, 2001:470:1f0b:100::/64: [Firma-X-R1 TunnelBroker delegation](equipment/networking/cisco-897va)
+- 2001:470:75ec::/48, 2001:470:1f0b:100::/64: [Firma X TunnelBroker delegation](firmax)
