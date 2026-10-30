@@ -1,8 +1,8 @@
 ---
 title: "ASUS WR-AX1800U"
 category: "Networking"
-description: "OpenWrt 25.12.5"
-hostname: "Firma-X-AP2"
+description: "Gargoyle 1.15"
+hostname: "Gargoyle-rdran"
 meaningful: true
 ---
 
@@ -22,7 +22,7 @@ I ran into a problem as to where I couldn't enable VLANs on the WAN port, but it
 
 ### Fun facts
 
-- It's probably a better router than [my Cisco](cisco-897va) ever was/will be but I'm using it as just an access point
+- It's probably a better router than [my Cisco](cisco-897va) ever was/will be but I'm using it as just ~~an access point~~ Customer Premises Equipment for my lab
 - The antennas on it are so great as to be picking up networks from like three streets away
 - The wiki page lists 25.12.3 as the latest release but the firmware selector has 25.12.5?
 

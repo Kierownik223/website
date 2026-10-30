@@ -2,7 +2,7 @@
 title: "Cisco 897VA"
 category: "Networking"
 description: "IOS 15.9"
-hostname: "FirmaX-R1"
+hostname: "FirmaY-R1"
 meaningful: true
 ---
 
@@ -11,7 +11,7 @@ meaningful: true
 My experimental and practise router. Bought it for 45 PLN without a power supply, which justified the price as an original power supply costs upwards of 200 PLN which is crazy for such an old router.  
 After it arrived, I inspected the power plug and found a power supply from an old HP system that had the same connector, so I chopped it off and wired it up to a terminal with a normal barrel jack. I then got a 1,5A 12V power supply and... the router sprang into life.
 
-It was originally used at PremiumOil.eu in Poznań, Poland, but somehow ended up at the south where I live :O.
+It was originally used at PlatinumOil.eu in Poznań, Poland, but somehow ended up at the south where I live :O.
 
 I then used the configuration register 0x2142 to make it not load the config and erased the NVRAM once booted into IOS.  
 It came with IOS 15.2 but then I found a sketchy forum where someone shared a newer, IOS 15.9, image built in March, 2026(!).

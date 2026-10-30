@@ -2,7 +2,7 @@
 title: "MikroTik RB951G-2HnD"
 category: "Networking"
 description: "RouterOS 7.24.5"
-hostname: "MikroDik"
+hostname: "FirmaX-R1"
 meaningful: true
 ---
 
