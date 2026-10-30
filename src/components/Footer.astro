@@ -4,6 +4,40 @@ const year = new Date().getFullYear()
 import "../fonts/CMUTTO.css";
 ---
 
+<script is:inline>
+    var toggleButton = document.getElementById('themelink');
+    var bodyElement = document.body;
+
+    (function() {
+        var theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
+            bodyElement.className = 'dark';
+        } else if (theme === 'light') {
+            bodyElement.className = 'light';
+        }
+    })();
+
+    toggleButton.addEventListener('click', function() {
+        if (bodyElement.classList.contains('dark')) {
+            bodyElement.className = 'light';
+            localStorage.setItem('theme', 'light');
+        } else if (bodyElement.classList.contains('light')) {
+            bodyElement.className = 'dark';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            
+            if (prefersDark) {
+                bodyElement.className = 'light';
+                localStorage.setItem('theme', 'light');
+            } else {
+                bodyElement.className = 'dark';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+    });
+</script>
+
 <footer>
     Kierownik223 - {year}. <a href="https://git.marmak.net.pl/Kierownik223/website">All sources</a> GPLv3. Photos under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> <small><a href="https://firmax.kier.ovh">FirmaX</a></small>
 </footer>

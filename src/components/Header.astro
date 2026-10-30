@@ -41,6 +41,7 @@ import "../fonts/CMUTTO.css";
                     </li>
                 ))
             }
+            <li><a href="javascript:;" id="themelink">Toggle theme</a></li>
         </ul>
     </nav>
 </header>
@@ -58,6 +59,16 @@ import "../fonts/CMUTTO.css";
     @media (prefers-contrast: more) {
         header {
             color: #fff;
+        }
+    }
+
+    body.light nav ul, body.light nav a {
+        color: #5c327c;
+    }
+
+    @media (min-width: 600px) {
+        body.light header {
+            border-right: #5c327c solid 1px;
         }
     }
 
@@ -134,6 +145,10 @@ import "../fonts/CMUTTO.css";
             width: calc(100% - 250px);
             margin-left: 250px;
             padding-left: 10px;
+            border-top: none;
+        }
+
+        .main:not(body.dark) {
             border-top: none;
         }
 

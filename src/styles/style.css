@@ -13,6 +13,20 @@ body {
     color-scheme: dark light;
 }
 
+body.light {
+    background-color: #f8f8fc;
+    background-image: url('/assets/misdemeanor.svg');
+    color: #000;
+}
+
+body.light .main  {
+    border-top: #5c327c solid 1px;
+}
+
+body.light a  {
+    color: #5c327c;
+}
+
 .main {
     width: 90vw;
     margin: 10px auto;
@@ -70,17 +84,17 @@ pre.astro-code {
 }
 
 @media (prefers-color-scheme: light) {
-    body {
+    body:not(.dark) {
         background-color: #f8f8fc;
         background-image: url('/assets/misdemeanor.svg');
         color: #000;
     }
 
-    .main {
+    .main:not(.dark)  {
         border-top: #5c327c solid 1px;
     }
 
-    a {
+    a:not(.dark)  {
         color: #5c327c;
     }
 }
