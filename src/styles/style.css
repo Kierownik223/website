@@ -20,7 +20,7 @@ body {
     border-top: #282828 solid 1px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-family: 'CMU Typewriter Text Oblique', 'Courier New', Courier, monospace;
     color: #6750A4;
 }
@@ -60,6 +60,14 @@ img.profile {
     padding: 10px;
 }
 
+code {
+    font-family: 'CMU Typewriter Text Oblique', 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+pre.astro-code {
+    padding: 5px;
+}
 
 @media (prefers-color-scheme: light) {
     body {
