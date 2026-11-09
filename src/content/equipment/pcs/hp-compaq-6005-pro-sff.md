@@ -35,6 +35,7 @@ My secondary PC, used mainly as a period-correct Windows 7 rig.
 - Monitors:
     - Primary: Samsung SyncMaster BX2240 1920x1080 22" 60Hz
     - Secondary: LG Flatron W1934S 1440x900 19" 60Hz
+- Speakers: Creative A50 USB
 - Keyboard: Microsoft Internet Keyboard (1998)
 - Mouse: Dell USB Optical mouse
 
@@ -44,3 +45,4 @@ My secondary PC, used mainly as a period-correct Windows 7 rig.
 - Nostalgia
 - PocketPC developement
 - Windows Phone 7 developement
+- Blowing up speakers
