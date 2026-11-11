@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Base.astro
-current: "home"
+current: "index"
 ---
 
 ## Hi!
