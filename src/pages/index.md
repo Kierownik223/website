@@ -51,7 +51,7 @@ From most to least I also enjoy spending my time on:
 
 - My real name is Marcel
 - I own around 30 phones and 3 PCs
-	- Main phone: Nothing Phone (1) (not mine btw)
+	- Main phone: Samsung Galaxy S20 FE 5G (not mine btw) (r8q, crDroid 12.12)
 	- Digital camera: [Nokia Lumia 1020 64GB](/equipment/phones/nokia-lumia-1020-64gb)
 - I (almost) won the Provincial Science Competition in 2025
 - I chose Kierownik223 because "Kierownik123" was already taken
