@@ -47,7 +47,7 @@ From most to least I also enjoy spending my time on:
 - Video editing
 - Science and maths
 
-### Facts about me:
+### General facts:
 
 - My real name is Marcel
 - I own around 30 phones and 3 PCs
@@ -59,7 +59,7 @@ From most to least I also enjoy spending my time on:
 - I paid less for this domain than for [marmak.net.pl](https://marmak.net.pl)
 - I didn't originally make the [marmak.net.pl](https://marmak.net.pl) website
 - I used to own marmak.cf, jnwz.cf and blinkenlights.cf
-- If it wasn't for [Olek47](https://github.com/Olek47), I would have quit Linux server administration a long time ago
+- If it hadn't been for [Olek47](https://github.com/Olek47), I would have quit Linux server administration a long time ago
 - I originally made the [Mirror](https://dl.marmak.net.pl) just to host PocketPC software
 - If it wasn't for me, [Live Store Silver](https://store.live.net.co/app/145) wouldn't exist
 - I hate Windows 11 with a passion
