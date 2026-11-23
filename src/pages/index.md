@@ -52,7 +52,7 @@ From most to least I also enjoy spending my time on:
 - My real name is Marcel
 - I own around 30 phones and 3 PCs
 	- Main phone: Samsung Galaxy S20 FE 5G (not mine btw) (r8q, crDroid 12.12)
-	- Digital camera: [Nokia Lumia 1020 64GB](/equipment/phones/nokia-lumia-1020-64gb)
+	- Digital camera: [Nokia Lumia 1020 64GB](equipment/phones/nokia-lumia-1020-64gb)
 - I (almost) won the Provincial Science Competition in 2025
 - I chose Kierownik223 because "Kierownik123" was already taken
 - I love [Crystal Castles](https://dl.marmak.net.pl/music/Crystal%20Castles/) to death
@@ -70,23 +70,3 @@ From most to least I also enjoy spending my time on:
 - Most of [the stuff I use](equipment) is chosen because I'm used to it or I like it
 
 **Interested?** Go check out [the equipment page](equipment) to see the stuff I mess around with, or for any questions, feel free to [contact](contact) me!
-
-<div class="buttons"><a href="/assets/buttons/kierovh.gif"><img src="/assets/buttons/kierovh.gif" alt="Get my button here!"></a>
-<img src="/assets/buttons/any.gif" alt="Go ahead and use anything you want!">
-<img src="/assets/buttons/eyes.gif" alt="Robots are not welcome!">
-<a href="https://marmak.net.pl/services"><img src="/assets/buttons/fedora.gif" alt="Hosted on MARMAK servers"></a>
-<a href="https://git.marmak.net.pl/Kierownik223/website"><img src="/assets/buttons/gpl3.gif" alt="Source code on GPLv3"></a>
-<img src="/assets/buttons/linux.gif" alt="Made on GNU/Linux">
-<a href="equipment#pcs"><img src="/assets/buttons/phone.gif" alt="Get a PC already"></a>
-<a href="https://www.firefox.com/download/all/"><img src="/assets/buttons/mozilla.gif" alt="Download Firefox"></a>
-<a href="https://sup.live.net.co"><img src="/assets/buttons/fb.gif" alt="Fuck Facebook"></a>
-<a href="https://karol.marmak.net.pl"><img src="/assets/buttons/iexploder.gif" alt="I explode"></a>
-<a href="https://me.live.net.co/Kierownik223"><img src="/assets/buttons/oln.gif" alt="Visit my profile on One Live Network"></a>
-<a href="equipment/networking/cisco-897va"><img src="/assets/buttons/cisco.gif" alt="Cisco LAN"></a>
-<a href="https://dl.marmak.net.pl/software/PocketPC/"><img src="/assets/buttons/ppc.gif" alt="My PocketPC software"></a>
-<img src="/assets/buttons/ipv6.gif" alt="IPv6 ready">
-<img src="/assets/buttons/web3.gif" alt="Stop Web3">
-<img src="/assets/buttons/microslop.gif" alt="Stop Microsoft, or let them die by themselves">
-<a href="/assets/buttons/figura.gif"><img src="/assets/buttons/figura.gif" alt="Figura"></a>
-<a href="equipment/laptops/hp-elitebook-830-g8"><img src="/assets/buttons/830g8.gif" alt="HP EliteBook 830 G8"></a>
-<a href="equipment#phones"><img src="/assets/buttons/nophones.gif" alt="No phones?"></a></div>
